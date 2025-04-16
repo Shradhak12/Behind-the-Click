@@ -16,7 +16,7 @@
 - **SRN**: 01fe22bcs263
 - **Course Instructor**: Prakash Hegade
 - **University**: KLE Technological University
-- **Portfolio Topic/Domain**: Google
+- **Portfolio Domain**: Google
 
 ### In This Portfolio
 In this portfolio, I’ve analyzed and mapped various Google services like **Google Maps**, **YouTube**, **Gmail**, **Google Search**, and more — each through the lens of algorithms that make them fast, intelligent, and scalable.
