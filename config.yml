@@ -1,48 +1,27 @@
 # Basic Configuration
 title: "GoogleAlgoJourney"
 description: "A portfolio exploring Google algorithms."
-# url: "https://yourusername.github.io/google-algorithms-portfolio"
-# baseurl: "/google-algorithms-portfolio"  # Adjust this based on the repository name
 
-# Social Media Links
-# twitter_username: "yourtwitter"
-# github_username: "yourusername"
-# linkedin_username: "yourlinkedin"
 
-# Navigation Menu
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about/"
-  - title: "Projects"
-    url: "/projects/"
-  - title: "Contact"
-    url: "/contact/"
 
-# # Logo
-# logo: "/assets/images/logo.png"  # Path to your logo image
 
-# Theme settings (Custom colors, fonts, etc. can be modified in _sass)
+
+
 theme: slate
-highlighter: rouge  # Use rouge for syntax highlighting
+highlighter: rouge  
 
-# Google Analytics (Optional)
-# google_analytics: "UA-XXXXX-Y"
 
-# Markdown Processor
+
+
 markdown: kramdown
 
-# Pagination (optional if you plan to paginate posts)
+
 paginate: 5
 
-# # Disqus Comments (Optional)
-# comments:
-#   disqus_shortname: "yourdisqusshortname"
 
-# Custom Footer
+
+
 footer_text: "© 2025 GoogleAlgoJourney. All rights reserved."
 
-# Additional Information
-# (You can customize this further based on your specific needs)
+
 
