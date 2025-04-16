@@ -1,6 +1,4 @@
-# Basic Configuration
-title: "GoogleAlgoJourney"
-description: "A portfolio exploring Google algorithms."
+
 
 
 
@@ -13,10 +11,6 @@ highlighter: rouge
 
 
 
-markdown: kramdown
-
-
-paginate: 5
 
 
 
