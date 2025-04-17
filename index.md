@@ -52,7 +52,7 @@ title: Home
 
 ## SEA OF GOOGLE
 
-![Sea_of_google](images/GI.png)
+![Google Architecture](https://raw.githubusercontent.com/Shradhak12/GoogleAlgoJourney/main/images/GI.png)
 *Source: Google*
 
 
