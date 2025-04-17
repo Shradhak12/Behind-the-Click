@@ -1,10 +1,10 @@
-<link rel="stylesheet" href="assets/css/custom.css">
 ---
 layout: default
 title: Home
 ---
+<link rel="stylesheet" href="assets/css/custom.css">
 
-# Google Services Portfolio
+##Google Services Portfolio
 
 <dl>
 <dt>Course Name</dt>
