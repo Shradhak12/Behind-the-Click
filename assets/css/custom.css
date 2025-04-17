@@ -1,4 +1,82 @@
-/* Custom top bar color */
+/* Amazon Theme */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f3f3;
+  color: #111;
+}
+
+/* Top header */
 .page-header {
-  background-color: #1d3557 !important; /* Change to any color you like */
+  background-color: #232f3e !important; /* Amazon dark gray/navy */
+  border-bottom: 4px solid #febd69; /* Amazon orange */
+  padding: 1rem;
+  text-align: center;
+}
+
+.page-header h1 {
+  color: white;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #131921;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #febd69; /* Amazon yellow/orange */
+  color: #111;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  padding: 8px;
+  background-color: #fff;
+}
+
+/* Definition lists */
+dl dt {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #232f3e;
+}
+
+dl dd {
+  margin-left: 20px;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 5px solid #febd69;
+  background-color: #fff8e1;
+  padding: 10px 15px;
+  font-style: italic;
+}
+
+/* Links */
+a {
+  color: #007185;
+}
+
+a:hover {
+  color: #f08804;
+}
+
+/* Image */
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 10px 0;
 }
