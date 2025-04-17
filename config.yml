@@ -1,21 +1,4 @@
-
-
-
-
-
-
-
-theme: slate
-highlighter: rouge  
-
-
-
-
-
-
-
-
-footer_text: "© 2025 GoogleAlgoJourney. All rights reserved."
+theme: jekyll-theme-slate
 
 
 
