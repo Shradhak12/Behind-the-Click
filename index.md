@@ -27,7 +27,7 @@ title: Home
 
 - [Motivation](#motivation)
 - [Objectives](#objectives)
-- [Architecture](#architecture)
+- [SEA OF GOOGLE](#architecture)
 - [Google Services & Algorithms](#google-services--algorithms)
 - [References](#references)
 
@@ -50,9 +50,9 @@ title: Home
 
 
 
-## Architecture
+## SEA OF GOOGLE
 
-![Google Architecture]([https://upload.wikimedia.org/wikipedia/commons/c/cc/Google_Global_Data_Center_Network.png](https://tse1.mm.bing.net/th?id=OIP.KgTwrXC4OngRMghVd1b_tQHaEK&pid=Api&P=0&h=180))
+![Sea_of_google](images/GI.png)
 *Source: Google*
 
 
