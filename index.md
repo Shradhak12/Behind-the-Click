@@ -18,7 +18,7 @@ title: Home
 <dd>KLE Technological University</dd>
 </dl>
 
----
+
 
 > This portfolio presents an analytical breakdown of various algorithms powering Google's services, from search to cloud infrastructure.
 
@@ -30,13 +30,13 @@ title: Home
 - [Google Services & Algorithms](#google-services--algorithms)
 - [References](#references)
 
----
+
 
 ## Motivation
 
 🚀 To explore how Google's widely used services leverage powerful algorithms to provide efficient, accurate, and intelligent functionalities.
 
----
+
 
 ## Objectives
 
@@ -47,18 +47,18 @@ title: Home
 - Explaining the purpose, working, and time/space complexity of the algorithms.
 - Demonstrating how algorithms shape real-world tech.
 
----
+
 
 ## Architecture
 
 ![Google Architecture](https://upload.wikimedia.org/wikipedia/commons/c/cc/Google_Global_Data_Center_Network.png)
 *Source: Google*
 
----
+
 
 ## Google Services & Algorithms
 
-### 🔍 Google Search
+###  Google Search
 
 | Functionality | Algorithms Used |
 |---------------|------------------|
@@ -69,9 +69,9 @@ title: Home
 | Spell Correction | Edit Distance (Levenshtein), n-grams |
 | Semantic Search | BERT, Word2Vec |
 
----
 
-### 🗺️ Google Maps
+
+###  Google Maps
 
 | Functionality | Algorithms Used |
 |---------------|------------------|
@@ -80,9 +80,9 @@ title: Home
 | POI Clustering | K-Means, DBSCAN |
 | Region Analysis | Voronoi Diagram, Convex Hull |
 
----
 
-### ✉️ Gmail
+
+###  Gmail
 
 | Functionality | Algorithms Used |
 |---------------|------------------|
@@ -93,7 +93,7 @@ title: Home
 
 ---
 
-### 📺 YouTube
+###  YouTube
 
 | Functionality | Algorithms Used |
 |---------------|------------------|
@@ -104,7 +104,7 @@ title: Home
 
 ---
 
-### ☁️ Google Drive / Cloud
+###  Google Drive / Cloud
 
 | Functionality | Algorithms Used |
 |---------------|------------------|
@@ -113,9 +113,9 @@ title: Home
 | Load Balancing | Consistent Hashing |
 | Secure Sharing | AES, RSA Encryption Algorithms |
 
----
 
-### 🤖 Google Assistant
+
+###  Google Assistant
 
 | Functionality | Algorithms Used |
 |---------------|------------------|
@@ -123,7 +123,7 @@ title: Home
 | Natural Language Understanding | BERT, RNN, LSTM |
 | Intent Prediction | Naive Bayes, Deep Neural Networks |
 
----
+
 
 ## References
 
