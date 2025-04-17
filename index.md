@@ -52,7 +52,7 @@ title: Home
 
 ## Architecture
 
-![Google Architecture](https://upload.wikimedia.org/wikipedia/commons/c/cc/Google_Global_Data_Center_Network.png)
+![Google Architecture]([https://upload.wikimedia.org/wikipedia/commons/c/cc/Google_Global_Data_Center_Network.png](https://tse1.mm.bing.net/th?id=OIP.KgTwrXC4OngRMghVd1b_tQHaEK&pid=Api&P=0&h=180))
 *Source: Google*
 
 
