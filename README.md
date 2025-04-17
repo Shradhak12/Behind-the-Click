@@ -20,18 +20,14 @@ title: Home
 
 ---
 
-> A step towards Ecommerce Functionalities in terms of APS
+> 
 
 
 
 In this portfolio, I am trying to express the basic functionalities of an e-commerce website in terms of algorithms.
 
 ## Table of Contents
-- [Motivation](#motivation)
-- [Objectives](#objectives)
-- [Architecture](#architecture)
-- [Functionalities](#functionalities)
-- [References](#references)
+
 
 ## Motivation
 
