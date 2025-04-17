@@ -1,39 +1,71 @@
+---
+layout: default
+title: Home
+---
+
+# Ecommerce-Portfolio
+
+<dl>
+<dt>Course Name</dt>
+<dd>Algorithmic Problem Solving</dd>
+<dt>Domain</dt>
+<dd>Google</dd>
+<dt>Course Code</dt>
+<dd>24ECSE309</dd>
+<dt>Faculty</dt>
+<dd>Prakash Hegade</dd>
+<dt>University</dt>
+<dd>KLE Technological University</dd>
+</dl>
+
+---
+
+> A step towards Ecommerce Functionalities in terms of APS
 
 
 
+In this portfolio, I am trying to express the basic functionalities of an e-commerce website in terms of algorithms.
+
+## Table of Contents
+- [Motivation](#motivation)
+- [Objectives](#objectives)
+- [Architecture](#architecture)
+- [Functionalities](#functionalities)
+- [References](#references)
+
+## Motivation
+
+📌 The objectives of this portfolio include:
 
 
-### Course Details
-- **Course Name**: Algorithmic Problem Solving
-- **Course Code**: 23ECSE309
-- **Name**: Shradha S. Kekare
-- **SRN**: 01fe22bcs263
-- **Course Instructor**: Prakash Hegade
-- **University**: KLE Technological University
-- **Portfolio Domain**: Google
+## Architecture
+![image](https://github.com/AbhijnaKalbhag/Ecommerce-Portfolio.github.io/assets/136738568/dc3efb74-4287-4c7e-9ccc-93e8a8802538)
+*Source: Personal portfolio*
 
-### In This Portfolio
-In this portfolio, I’ve analyzed and mapped various Google services like **Google Maps**, **YouTube**, **Gmail**, **Google Search**, and more — each through the lens of algorithms that make them fast, intelligent, and scalable.
+## Functionalities of an Ecommerce Website
+(click on each functionality to explore further)
 
-> 🧠 *“Algorithms are not just problems to solve — they are the engines behind everyday tech that billions rely on.”*
+1. [Searching a product](./1.md)
+2. [Product Recommendations](./2.md)
+3. [Deciding delivery route](./3.md)
+4. [Arranging orders in cart](./4.md)
+5. [Storing user and product details](./5.md)
+6. [Product Catalogue Search](./6.md)
+7. [Managing Customer Traffic During Sales](./7.md)
+8. [Dynamic Pricing Adjustments](./8.md)
+9. [Efficient Discount and Promotion Management](./9.md)
+10. [Indexing Product data](./10.md)
+11. [Order Dependency Resolution](./11.md)
+12. [Product Comparison Based on Descriptions](./12.md)
+13. [Duplicate Detection](./13.md)
+14. [Inventory Management](./14.md)
+15. [Clustering products into categories](./15.md)
 
-This is not just a collection of solutions. It is a **deep dive into understanding, structuring, and explaining** how core computer science concepts drive some of the most advanced systems in the world.
+## References
 
-Whether it’s **Dijkstra’s Algorithm for routing**, **Tries for autocomplete**, or **KMP for string matching**, each concept is tied to a real-world use case from Google — explained with clarity, relevance, and enthusiasm.
-
-### Purpose
-My goal is simple:
-- 🔍 **To understand DSA through the products we use every day**
-- 💡 **To connect theory with impactful applications**
-- 📖 **To showcase my love for clean code, problem-solving, and computer science**
-- 🧑‍💻 **To build a portfolio worthy of my dream — working at Google**
-
-### What’s Inside?
-Inside this portfolio, you'll find:
-- 💥 Clear and crisp explanations of each algorithm  
-- 🔍 Real-life use cases from Google’s product suite  
-- 🧠 Time & space complexities  
-- 💻 Code implementations with comments  
-- 🚀 Insights into why a particular algorithm fits the problem
-
-Let’s dive into the world of Google through the lens of DSA — one algorithm at a time.
+1. Mailchimp. (2024). E-commerce Website. Available at: https://mailchimp.com/marketing-glossary/ecommerce-website/ (Accessed: 7 July 2024).
+2. Wikipedia. (2024). Tarjan's strongly connected components algorithm. Available at: https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm (Accessed: 7 July 2024).
+3. Wikipedia. (2024). Treap. Available at: https://en.wikipedia.org/wiki/Treap (Accessed: 7 July 2024).
+4. GoMage. (2024). Architecture of E-commerce. Available at: https://www.gomage.com/blog/architecture-of-ecommerce/ (Accessed: 7 July 2024).
+5. TUM. (2024). Ford-Fulkerson Algorithm. Available at: https://algorithms.discrete.ma.tum.de/flow/ford-fulkerson/ (Accessed: 7 July 2024).
+6. Gbadebo, A.A. (2023). Efficient Algorithms for E-commerce. Available at: http://journal.edit4journal.com/2536/1/Gbadebo1642023AJRCOS110427.pdf (Accessed: 7 July 2024).
