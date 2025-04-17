@@ -1,4 +1,3 @@
-theme: jekyll-theme-slate
-
-
-
+theme: jekyll-theme-leap-day
+url: ""
+baseurl: "" # this should be empty for user or organization sites
