@@ -92,7 +92,7 @@ title: Home
 | Auto Suggestions | Seq2Seq, Transformers |
 | Categorization | Decision Trees, SVM |
 
----
+
 
 ###  YouTube
 
@@ -103,7 +103,7 @@ title: Home
 | Video Search | TF-IDF, Cosine Similarity |
 | Compression | Huffman Coding, RLE |
 
----
+
 
 ###  Google Drive / Cloud
 
