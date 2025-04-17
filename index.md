@@ -4,7 +4,7 @@ title: Home
 ---
 
 
-##Google Services Portfolio
+## Google Services Portfolio
 
 <dl>
 <dt>Course Name</dt>
