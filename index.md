@@ -90,9 +90,8 @@ Here, we break down complex algorithmic concepts into understandable insights, c
 ## References
 
 1. GeeksforGeeks: https://www.geeksforgeeks.org/
-2. CLRS (Introduction to Algorithms)
 3. Wikipedia - Dijkstra, Trie, Hashing
 4. Stack Overflow Discussions
-5. KLE University Lecture Notes
+
 
 > 📌 This portfolio strictly explores core **Data Structures and Algorithms (DSA)** involved in the functioning of Google’s services.
