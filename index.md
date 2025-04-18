@@ -3,48 +3,32 @@ layout: default
 title: Home
 ---
 
-## Google Services Portfolio
+> "Behind every seamless Google experience lies a carefully crafted algorithm."
 
-<dl>
-<dt>Course Name</dt>
-<dd>Algorithmic Problem Solving</dd>
-<dt>Domain</dt>
-<dd>Google Services</dd>
-<dt>Course Code</dt>
-<dd>24ECSE309</dd>
-<dt>Faculty</dt>
-<dd>Prakash Hegade</dd>
-<dt>University</dt>
-<dd>KLE Technological University</dd>
-</dl>
+Welcome to a deep dive into the **Algorithmic Backbone** of Google’s most influential services.  
+This portfolio is a structured exploration of how classical and modern **Data Structures and Algorithms (DSA)** power Google's ecosystem — from lightning-fast search results to intelligent virtual assistants.
 
-> This portfolio presents an analytical breakdown of various **DSA algorithms** powering Google’s core services.
+Here, we break down complex algorithmic concepts into understandable insights, correlating them with real-world Google functionalities.
 
 ## Table of Contents
 
 - [Motivation](#motivation)
 - [Objectives](#objectives)
-- [SEA OF GOOGLE](#sea-of-google)
 - [Google Services & Algorithms](#google-services--algorithms)
 - [References](#references)
 
 ## Motivation
 
-🚀 To explore how Google’s widely used services utilize **core data structures and algorithms** to deliver efficient and scalable features.
+🚀 To explore how Google’s widely used services utilize **Algorithmic principles** to deliver efficient and scalable features.
 
 ## Objectives
 
 📌 The objectives of this portfolio include:
 
 - Identifying key Google services.
-- Highlighting **DSA-focused algorithms** used in these services.
+- Highlighting **Various Algorithms** used in these services.
 - Explaining the purpose, working, and complexity of the algorithms.
 - Connecting algorithms with their real-world applications.
-
-## SEA OF GOOGLE
-
-![Google Architecture](https://raw.githubusercontent.com/Shradhak12/GoogleAlgoJourney/main/images/GI.png)  
-*Source: Google*
 
 ## Google Services & Algorithms
 
@@ -52,67 +36,56 @@ title: Home
 
 | Functionality        | Algorithms Used                      |
 |----------------------|--------------------------------------|
-| Query Matching       | Rabin-Karp, KMP, Suffix Trees        |
-| Autocomplete         | Trie, Prefix Tree                    |
-| Page Ranking         | Graph Algorithms, DFS, BFS           |
-| Caching              | LRU Cache, LFU Cache                 |
-| Spell Correction     | Edit Distance (Levenshtein), Tries   |
-
-
+| Query Matching       | **Rabin-Karp** (String Matching)     |
+| Autocomplete         | **Trie** (Prefix Tree)               |
+| Page Ranking         | **Graph Algorithms** (DFS, BFS)      |
+| Caching              | **LRU Cache**                        |
+| Spell Correction     | **Levenshtein Distance** (Edit Distance) |
 
 ### Google Maps
 
 | Functionality        | Algorithms Used                      |
 |----------------------|--------------------------------------|
-| Shortest Path        | Dijkstra’s Algorithm, A* Search      |
-| Traffic Estimation   | Dynamic Graph Updates                |
-| Location Clustering  | Union-Find, Graph Traversals         |
-| Region Analysis      | Convex Hull, Voronoi Diagram         |
-
-
+| Shortest Path        | **Dijkstra’s Algorithm**             |
+| Traffic Estimation   | **Dynamic Graph Updates**           |
+| Location Clustering  | **Union-Find** (Disjoint Set)        |
+| Region Analysis      | **Convex Hull** (Graham Scan)        |
 
 ### Gmail
 
 | Functionality        | Algorithms Used                      |
 |----------------------|--------------------------------------|
-| Email Threading      | Disjoint Sets (Union-Find)           |
-| Caching              | LRU Cache                            |
-| Attachment Handling  | File Compression, Huffman Coding     |
-| Search               | Inverted Index, Suffix Arrays        |
-
-
+| Email Threading      | **Union-Find** (Disjoint Set)        |
+| Caching              | **LRU Cache**                        |
+| Attachment Handling  | **Huffman Coding**                   |
+| Search               | **Inverted Index**                   |
 
 ### YouTube
 
 | Functionality        | Algorithms Used                      |
 |----------------------|--------------------------------------|
-| Video Indexing       | Trie, Hash Maps                      |
-| Video Search         | Suffix Trees, TF-IDF (non-ML)        |
-| Trending Detection   | Sliding Window, Queues               |
-| Compression          | Huffman Coding, Run-Length Encoding  |
-
-
+| Video Indexing       | **Trie**                             |
+| Video Search         | **Suffix Arrays**                    |
+| Trending Detection   | **Sliding Window** (Max/Min Queues)  |
+| Compression          | **Huffman Coding**                   |
 
 ### Google Drive / Cloud
 
 | Functionality        | Algorithms Used                      |
 |----------------------|--------------------------------------|
-| File Search          | Inverted Index, Binary Search Trees  |
-| Deduplication        | Hashing, Hash Tables                 |
-| Load Balancing       | Consistent Hashing                   |
-| Access Trees         | Binary Trees, Segment Trees          |
+| File Search          | **Binary Search Trees**              |
+| Deduplication        | **Hash Tables**                      |
+| Load Balancing       | **Consistent Hashing**               |
+| Access Control       | **Segment Trees**                    |
 
-
-
-### Google Assistant (DSA Perspective Only)
+### Google Calendar
 
 | Functionality        | Algorithms Used                      |
 |----------------------|--------------------------------------|
-| Command Execution    | Stack, Queue                         |
-| Task Management      | Priority Queue, Heaps                |
-| History Navigation   | Doubly Linked List                   |
-
-
+| Event Sorting        | **Merge Sort** (Sorting Events)      |
+| Date Lookup          | **Binary Search** (Efficient Query)  |
+| Availability Search  | **Segment Trees** (Range Queries)    |
+| Reminders            | **Priority Queue** (Task Scheduling)|
 
 ## References
 
@@ -121,7 +94,5 @@ title: Home
 3. Wikipedia - Dijkstra, Trie, Hashing
 4. Stack Overflow Discussions
 5. KLE University Lecture Notes
-
-
 
 > 📌 This portfolio strictly explores core **Data Structures and Algorithms (DSA)** involved in the functioning of Google’s services.
