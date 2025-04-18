@@ -1,9 +1,7 @@
 title: GoogleAlgoJourney
-theme: jekyll-theme-luxe
+theme: jekyll-theme-slate
 description: "Explore the journey of algorithms behind Google services!"
-url: "https://shradhak12.github.io/GoogleAlgoJourney/" # Replace with your site URL
-baseurl: "" # Leave it as is unless your site is in a subdirectory
-author: "  Shradha S. Kekare"
-email: "kenkreshraddha92@gmail.com" # Replace with your email
-
-
+url: "https://your-website-url.com"  # Replace with your site URL
+baseurl: ""  # Leave it as is unless your site is in a subdirectory
+author: "Your Name"
+email: "your-email@example.com"  # Replace with your email
