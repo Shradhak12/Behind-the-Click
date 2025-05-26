@@ -18,17 +18,18 @@ Here, we break down complex algorithmic concepts into understandable insights, c
 - [References](#references)
 
 ## Details
+
 <dl>
-<dt>Course Name</dt>
-<dd>Algorithmic Problem Solving</dd>
-<dt>Domain</dt>
-<dd>Google Services</dd>
-<dt>Course Code</dt>
-<dd>23ECSE304</dd>
-<dt>Faculty</dt>
-<dd>Prakash Hegade</dd>
-<dt>University</dt>
-<dd>KLE Technological University, Hubballi-31</dd>
+  <dt>Course Name</dt>
+  <dd>Algorithmic Problem Solving</dd>
+  <dt>Domain</dt>
+  <dd>Google Services</dd>
+  <dt>Course Code</dt>
+  <dd>23ECSE304</dd>
+  <dt>Faculty</dt>
+  <dd>Prakash Hegade</dd>
+  <dt>University</dt>
+  <dd>KLE Technological University, Hubballi-31</dd>
 </dl>
 
 
