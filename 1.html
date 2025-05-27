@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Query Matching - Google Search Algorithms</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background: #f9f9f9;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+    }
+    code {
+      background: #eee;
+      padding: 2px 4px;
+      border-radius: 3px;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      overflow-x: auto;
+    }
+    .diagram {
+      border: 1px dashed #ccc;
+      padding: 20px;
+      margin-bottom: 20px;
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Query Matching in Google Search</h1>
+  <p>Query matching is the fundamental step in understanding a user's intent and finding the relevant documents from a large corpus. Algorithms such as Rabin-Karp, KMP, and Aho-Corasick are often used to optimize this process.</p>
+
+  <h2>Comparison of Algorithms</h2>
+  <table>
+    <tr>
+      <th>Algorithm</th>
+      <th>Time Complexity</th>
+      <th>Space Complexity</th>
+      <th>Use Case</th>
+    </tr>
+    <tr>
+      <td>Rabin-Karp</td>
+      <td>O(n + m)</td>
+      <td>O(1)</td>
+      <td>Efficient for multiple pattern searches</td>
+    </tr>
+    <tr>
+      <td>KMP</td>
+      <td>O(n + m)</td>
+      <td>O(m)</td>
+      <td>Good for single pattern matching with prefix optimization</td>
+    </tr>
+    <tr>
+      <td>Aho-Corasick</td>
+      <td>O(n + z)</td>
+      <td>O(total patterns)</td>
+      <td>Best for searching many keywords simultaneously</td>
+    </tr>
+  </table>
+
+  <h2>1. Rabin-Karp Algorithm</h2>
+  <div class="diagram">
+    <p><strong>Diagram:</strong> A rolling hash window sliding over the query string.</p>
+    <p>[ Imagine: HASH("abc") → slide one → HASH("bcd") → match? ]</p>
+  </div>
+  <p><strong>Concept:</strong> Uses hashing to find patterns quickly. Great when multiple patterns need to be searched.</p>
+  <pre><code>// C++ Code - Rabin-Karp
+int search(string txt, string pat) {
+  int d = 256, q = 101;
+  int M = pat.length(), N = txt.length();
+  int i, j, p = 0, t = 0, h = 1;
+
+  for (i = 0; i < M - 1; i++) h = (h * d) % q;
+
+  for (i = 0; i < M; i++) {
+    p = (d * p + pat[i]) % q;
+    t = (d * t + txt[i]) % q;
+  }
+
+  for (i = 0; i <= N - M; i++) {
+    if (p == t) {
+      for (j = 0; j < M; j++) if (txt[i + j] != pat[j]) break;
+      if (j == M) return i;
+    }
+    if (i < N - M) {
+      t = (d * (t - txt[i] * h) + txt[i + M]) % q;
+      if (t < 0) t = t + q;
+    }
+  }
+  return -1;
+}
+</code></pre>
+
+  <h2>2. Knuth-Morris-Pratt (KMP)</h2>
+  <div class="diagram">
+    <p><strong>Diagram:</strong> Prefix table skipping unnecessary comparisons</p>
+    <p>[ Pattern: "ababc" → build prefix → skip ahead ]</p>
+  </div>
+  <p><strong>Concept:</strong> Builds prefix table to avoid recomparing characters.</p>
+  <pre><code>// C++ Code - KMP
+void computeLPS(string pat, int* lps) {
+  int len = 0, i = 1;
+  lps[0] = 0;
+  while (i < pat.size()) {
+    if (pat[i] == pat[len]) lps[i++] = ++len;
+    else if (len != 0) len = lps[len - 1];
+    else lps[i++] = 0;
+  }
+}
+
+void KMPSearch(string pat, string txt) {
+  int M = pat.size(), N = txt.size();
+  int lps[M], i = 0, j = 0;
+  computeLPS(pat, lps);
+  while (i < N) {
+    if (pat[j] == txt[i]) { j++; i++; }
+    if (j == M) { cout << "Found at " << i - j << endl; j = lps[j - 1]; }
+    else if (i < N && pat[j] != txt[i])
+      j = (j != 0) ? lps[j - 1] : i++;
+  }
+}
+</code></pre>
+
+  <h2>3. Aho-Corasick Algorithm</h2>
+  <div class="diagram">
+    <p><strong>Diagram:</strong> Trie with failure links and pattern output at nodes</p>
+    <p>[ Visual: Trie → failure → output ]</p>
+  </div>
+  <p><strong>Concept:</strong> Preprocess multiple patterns into a trie with suffix links. Fastest for searching many patterns.</p>
+  <pre><code>// C++ Code - Simplified Aho-Corasick Node
+struct Node {
+  map<char, Node*> next;
+  Node* fail;
+  vector<int> output;
+};
+</code></pre>
+
+  <p><strong>Google Usage:</strong> Used for filtering search results, ad scanning, and safe content filtering.</p>
+
+</body>
+</html>
