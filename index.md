@@ -54,11 +54,11 @@ Here, we break down complex algorithmic concepts into understandable insights, c
 
 | Functionality        | Algorithms Used                                                                 |
 |----------------------|----------------------------------------------------------------------------------|
-| Query Matching       | **Rabin-Karp**, **KMP**, **Aho-Corasick** [Details](1.html)                     |
-| Autocomplete         | **Trie**, **Ternary Search Tree**, **DAWG** [Details](2.html)                   |
-| Page Ranking         | **PageRank**, **HITS Algorithm**, **DFS/BFS** [Details](3.html)                |
+| Query Matching       | **Rabin-Karp**, **KMP** [Details](1.html)                     |
+| Autocomplete         | **Trie**, **Ternary Search Tree** [Details](2.html)                   |
+| Page Ranking         | **PageRank**, **DFS/BFS** [Details](3.html)                |
 | Caching              | **LRU Cache**, **LFU Cache**, **HashMap + DLL** [Details](4.html)              |
-| Spell Correction     | **Levenshtein Distance**, **BK-Tree**, **Trigram Matching** [Details](5.html)  |
+| Spell Correction     | **Levenshtein Distance**, **Trigram Matching** [Details](5.html)  |
 
 ---
 
@@ -69,7 +69,7 @@ Here, we break down complex algorithmic concepts into understandable insights, c
 | Shortest Path        | **Dijkstra’s Algorithm**, **A\* Search**, **Bellman-Ford** [Details](6.html)    |
 | Traffic Estimation   | **Dynamic Graphs**, **Real-time A\***, **Floyd-Warshall** [Details](7.html)     |
 | Location Clustering  | **Union-Find**, **DBSCAN**, **K-Means** [Details](8.html)                        |
-| Region Analysis      | **Convex Hull (Graham Scan)**, **Voronoi Diagrams**, **K-D Tree** [Details](9.html) |
+| Region Analysis      | **Convex Hull (Graham Scan)**, **K-D Tree** [Details](9.html) |
 
 ---
 
@@ -80,7 +80,7 @@ Here, we break down complex algorithmic concepts into understandable insights, c
 | Email Threading      | **Union-Find**, **Hash Maps**, **Disjoint Sets** [Details](10.html)             |
 | Caching              | **LRU Cache**, **LFU Cache**, **ARC** [Details](11.html)                        |
 | Attachment Handling  | **Huffman Coding**, **LZW Compression**, **Arithmetic Encoding** [Details](12.html) |
-| Search               | **Inverted Index**, **TF-IDF**, **BM25** [Details](13.html)                      |
+| Search               | **Inverted Index**,**BM25** [Details](13.html)                      |
 
 ---
 
@@ -89,8 +89,8 @@ Here, we break down complex algorithmic concepts into understandable insights, c
 | Functionality        | Algorithms Used                                                                 |
 |----------------------|----------------------------------------------------------------------------------|
 | Video Indexing       | **Trie**, **Suffix Tree**, **Inverted Index** [Details](14.html)                |
-| Video Search         | **Suffix Arrays**, **KMP**, **BM Algorithm** [Details](15.html)                 |
-| Trending Detection   | **Sliding Window**, **Heap-based Counters**, **Streaming Median** [Details](16.html) |
+| Video Search         | **Suffix Arrays**, **KMP** [Details](15.html)                 |
+| Trending Detection   | **Sliding Window**, **Heap-based Counters**[Details](16.html) |
 | Compression          | **Huffman Coding**, **Arithmetic Coding**, **Run-Length Encoding** [Details](17.html) |
 
 ---
@@ -100,7 +100,7 @@ Here, we break down complex algorithmic concepts into understandable insights, c
 | Functionality        | Algorithms Used                                                                 |
 |----------------------|----------------------------------------------------------------------------------|
 | File Search          | **Binary Search Tree**, **Trie**, **Inverted Index** [Details](18.html)         |
-| Deduplication        | **Hash Tables**, **Merkle Trees**, **Bloom Filters** [Details](19.html)         |
+| Deduplication        | **Hash Tables**, **Merkle Trees** [Details](19.html)         |
 | Load Balancing       | **Consistent Hashing**, **Round Robin**, **Weighted Scheduling** [Details](20.html) |
 | Access Control       | **Segment Trees**, **Interval Trees**, **Fenwick Trees** [Details](21.html)     |
 
