@@ -79,8 +79,8 @@ Here, we break down complex algorithmic concepts into understandable insights, c
 |----------------------|----------------------------------------------------------------------------------|
 | Email Threading      | **Union-Find**, **Hash Maps**, **Disjoint Sets** [Details](10.html)             |
 | Caching              | **LRU Cache**, **LFU Cache**, **ARC** [Details](11.html)                        |
-| Attachment Handling  | **Huffman Coding**, **LZW Compression**, **Arithmetic Encoding** [Details](12.html) |
-| Search               | **Inverted Index**,**BM25** [Details](13.html)                      |
+| Attachment Handling  | **Huffman Coding** [Details](12.html) |
+| Search               | **Inverted Index** [Details](13.html)                      |
 
 ---
 
@@ -88,7 +88,7 @@ Here, we break down complex algorithmic concepts into understandable insights, c
 
 | Functionality        | Algorithms Used                                                                 |
 |----------------------|----------------------------------------------------------------------------------|
-| Video Indexing       | **Trie**, **Suffix Tree**, **Inverted Index** [Details](14.html)                |
+| Video Indexing       |  **Suffix Tree**, **Inverted Index** [Details](14.html)                |
 | Video Search         | **Suffix Arrays**, **KMP** [Details](15.html)                 |
 | Trending Detection   | **Sliding Window**, **Heap-based Counters**[Details](16.html) |
 | Compression          | **Huffman Coding**, **Arithmetic Coding**, **Run-Length Encoding** [Details](17.html) |
