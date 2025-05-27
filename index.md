@@ -46,72 +46,75 @@ Here, we break down complex algorithmic concepts into understandable insights, c
 - Explaining the purpose, working, and complexity of the algorithms.
 - Connecting algorithms with their real-world applications.
 
+
+
 ## Google Services & Algorithms
 
 ### Google Search
 
-| Functionality        | Algorithms Used                      |
-|----------------------|--------------------------------------|
-| Query Matching       | **Rabin-Karp** (String Matching) [Details](1.html)     |
-| Autocomplete         | **Trie** (Prefix Tree) [Details](2.html)            |
-| Page Ranking         | **Graph Algorithms** (DFS, BFS) [Details](3.html)     |
-| Caching              | **LRU Cache** [Details](4.html)                       |
-| Spell Correction     | **Levenshtein Distance** (Edit Distance) [Details](5.html) |
+| Functionality        | Algorithms Used                                                                 |
+|----------------------|----------------------------------------------------------------------------------|
+| Query Matching       | **Rabin-Karp**, **KMP**, **Aho-Corasick** [Details](1.html)                     |
+| Autocomplete         | **Trie**, **Ternary Search Tree**, **DAWG** [Details](2.html)                   |
+| Page Ranking         | **PageRank**, **HITS Algorithm**, **DFS/BFS** [Details](3.html)                |
+| Caching              | **LRU Cache**, **LFU Cache**, **HashMap + DLL** [Details](4.html)              |
+| Spell Correction     | **Levenshtein Distance**, **BK-Tree**, **Trigram Matching** [Details](5.html)  |
 
 ---
 
 ### Google Maps
 
-| Functionality        | Algorithms Used                      |
-|----------------------|--------------------------------------|
-| Shortest Path        | **Dijkstra’s Algorithm** [Details](6.html)            |
-| Traffic Estimation   | **Dynamic Graph Updates** [Details](7.html)           |
-| Location Clustering  | **Union-Find** (Disjoint Set) [Details](8.html)     |
-| Region Analysis      | **Convex Hull** (Graham Scan) [Details](9.html)        |
+| Functionality        | Algorithms Used                                                                 |
+|----------------------|----------------------------------------------------------------------------------|
+| Shortest Path        | **Dijkstra’s Algorithm**, **A\* Search**, **Bellman-Ford** [Details](6.html)    |
+| Traffic Estimation   | **Dynamic Graphs**, **Real-time A\***, **Floyd-Warshall** [Details](7.html)     |
+| Location Clustering  | **Union-Find**, **DBSCAN**, **K-Means** [Details](8.html)                        |
+| Region Analysis      | **Convex Hull (Graham Scan)**, **Voronoi Diagrams**, **K-D Tree** [Details](9.html) |
 
 ---
 
 ### Gmail
 
-| Functionality        | Algorithms Used                      |
-|----------------------|--------------------------------------|
-| Email Threading      | **Union-Find** (Disjoint Set) [Details](10.html)        |
-| Caching              | **LRU Cache** [Details](11.html)                      |
-| Attachment Handling  | **Huffman Coding** [Details](12.html)                  |
-| Search               | **Inverted Index** [Details](13.html)                 |
+| Functionality        | Algorithms Used                                                                 |
+|----------------------|----------------------------------------------------------------------------------|
+| Email Threading      | **Union-Find**, **Hash Maps**, **Disjoint Sets** [Details](10.html)             |
+| Caching              | **LRU Cache**, **LFU Cache**, **ARC** [Details](11.html)                        |
+| Attachment Handling  | **Huffman Coding**, **LZW Compression**, **Arithmetic Encoding** [Details](12.html) |
+| Search               | **Inverted Index**, **TF-IDF**, **BM25** [Details](13.html)                      |
 
 ---
 
 ### YouTube
 
-| Functionality        | Algorithms Used                      |
-|----------------------|--------------------------------------|
-| Video Indexing       | **Trie** [Details](14.html)                           |
-| Video Search         | **Suffix Arrays** [Details](15.html)                 |
-| Trending Detection   | **Sliding Window** (Max/Min Queues) [Details](16.html) |
-| Compression          | **Huffman Coding** [Details](17.html)                  |
+| Functionality        | Algorithms Used                                                                 |
+|----------------------|----------------------------------------------------------------------------------|
+| Video Indexing       | **Trie**, **Suffix Tree**, **Inverted Index** [Details](14.html)                |
+| Video Search         | **Suffix Arrays**, **KMP**, **BM Algorithm** [Details](15.html)                 |
+| Trending Detection   | **Sliding Window**, **Heap-based Counters**, **Streaming Median** [Details](16.html) |
+| Compression          | **Huffman Coding**, **Arithmetic Coding**, **Run-Length Encoding** [Details](17.html) |
 
 ---
 
 ### Google Drive / Cloud
 
-| Functionality        | Algorithms Used                      |
-|----------------------|--------------------------------------|
-| File Search          | **Binary Search Trees** [Details](18.html)             |
-| Deduplication        | **Hash Tables** [Details](19.html)                     |
-| Load Balancing       | **Consistent Hashing** [Details](20.html)           |
-| Access Control       | **Segment Trees** [Details](21.html)                 |
+| Functionality        | Algorithms Used                                                                 |
+|----------------------|----------------------------------------------------------------------------------|
+| File Search          | **Binary Search Tree**, **Trie**, **Inverted Index** [Details](18.html)         |
+| Deduplication        | **Hash Tables**, **Merkle Trees**, **Bloom Filters** [Details](19.html)         |
+| Load Balancing       | **Consistent Hashing**, **Round Robin**, **Weighted Scheduling** [Details](20.html) |
+| Access Control       | **Segment Trees**, **Interval Trees**, **Fenwick Trees** [Details](21.html)     |
 
 ---
 
 ### Google Calendar
 
-| Functionality        | Algorithms Used                      |
-|----------------------|--------------------------------------|
-| Event Sorting        | **Merge Sort** (Sorting Events) [Details](22.html)      |
-| Date Lookup          | **Binary Search** (Efficient Query) [Details](23.html) |
-| Availability Search  | **Segment Trees** (Range Queries) [Details](24.html)    |
-| Reminders            | **Priority Queue** (Task Scheduling) [Details](25.html) |
+| Functionality        | Algorithms Used                                                                 |
+|----------------------|----------------------------------------------------------------------------------|
+| Event Sorting        | **Merge Sort**, **Quick Sort**, **Heap Sort** [Details](22.html)                |
+| Date Lookup          | **Binary Search**, **Sparse Table**, **Segment Trees** [Details](23.html)       |
+| Availability Search  | **Segment Trees**, **K-D Trees**, **Mo's Algorithm** [Details](24.html)         |
+| Reminders            | **Priority Queue**, **Min-Heap**, **Time Wheel** [Details](25.html)             |
+
 
 
 ## References
