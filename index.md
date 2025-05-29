@@ -95,25 +95,16 @@ Here, we break down complex algorithmic concepts into understandable insights, c
 
 ---
 
-### Google Drive / Cloud
 
-| Functionality        | Algorithms Used                                                                 |
-|----------------------|----------------------------------------------------------------------------------|
-| File Search          | **Binary Search Tree**, **Trie**, **Inverted Index** [Details](18.html)         |
-| Deduplication        | **Hash Tables**, **Merkle Trees** [Details](19.html)         |
-| Load Balancing       | **Consistent Hashing**, **Round Robin**, **Weighted Scheduling** [Details](20.html) |
-| Access Control       | **Segment Trees**, **Interval Trees**, **Fenwick Trees** [Details](21.html)     |
-
----
 
 ### Google Calendar
 
 | Functionality        | Algorithms Used                                                                 |
 |----------------------|----------------------------------------------------------------------------------|
-| Event Sorting        | **Merge Sort**, **Quick Sort**, **Heap Sort** [Details](22.html)                |
-| Date Lookup          | **Binary Search**, **Sparse Table**, **Segment Trees** [Details](23.html)       |
-| Availability Search  | **Segment Trees**, **K-D Trees**, **Mo's Algorithm** [Details](24.html)         |
-| Reminders            | **Priority Queue**, **Min-Heap**, **Time Wheel** [Details](25.html)             |
+| Event Sorting        | **Merge Sort**, **Quick Sort**, **Heap Sort** [Details](18.html)                |
+| Date Lookup          | **Binary Search**, **Sparse Table**, **Segment Trees** [Details](19.html)       |
+| Availability Search  | **Segment Trees**, **K-D Trees**, **Mo's Algorithm** [Details](20.html)         |
+| Reminders            | **Priority Queue**, **Min-Heap**, **Time Wheel** [Details](21.html)             |
 
 
 
