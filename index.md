@@ -103,8 +103,7 @@ Here, we break down complex algorithmic concepts into understandable insights, c
 |----------------------|----------------------------------------------------------------------------------|
 | Event Sorting        | **Merge Sort**, **Quick Sort**, **Heap Sort** [Details](18.html)                |
 | Date Lookup          | **Binary Search**, **Sparse Table**, **Segment Trees** [Details](19.html)       |
-| Availability Search  | **Segment Trees**, **K-D Trees**, **Mo's Algorithm** [Details](20.html)         |
-| Reminders            | **Priority Queue**, **Min-Heap**, **Time Wheel** [Details](21.html)             |
+| Reminders            | **Priority Queue**, **Min-Heap**, **Time Wheel** [Details](20.html)             |
 
 
 
