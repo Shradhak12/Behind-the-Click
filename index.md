@@ -171,5 +171,5 @@ Explore how Google integrates powerful algorithms behind its core services. This
 - Wikipedia: Dijkstra, Trie, Hashing  
 - Stack Overflow Discussions
 
-> 📌 This markdown portfolio outlines the key **Data Structures and Algorithms (DSA)** behind Google’s services, providing insight into real-world applications of theoretical concepts.
+> 📌 This  portfolio outlines the key **Data Structures and Algorithms (DSA)** behind Google’s services, providing insight into real-world applications of theoretical concepts.
 
