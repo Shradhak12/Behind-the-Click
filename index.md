@@ -3,63 +3,70 @@ layout: default
 title: Behind The Click
 ---
 
+> 🧠 "Behind every seamless Google experience lies a carefully crafted algorithm."
 
-> "Behind every seamless Google experience lies a carefully crafted algorithm."
+Welcome to **Behind The Click** – a deep dive into the **algorithmic engines** powering Google’s most iconic services.
 
-Welcome to a deep dive into the **Algorithmic Backbone** of Google’s most influential services.  
-This portfolio is a structured exploration of how classical and modern **Data Structures and Algorithms (DSA)** power Google's ecosystem — from lightning-fast search results to intelligent virtual assistants.
+Explore how classical and modern **Data Structures and Algorithms (DSA)** bring intelligence, scalability, and lightning speed to platforms like Search, Maps, Gmail, and YouTube.
 
-Here, we break down complex algorithmic concepts into understandable insights, correlating them with real-world Google functionalities.
+Whether you're curious about how a Trie powers Autocomplete or how PageRank works behind search results – this portfolio makes it all accessible, meaningful, and connected to reality.
 
-## Table of Contents
-- [Details](#details)
-- [Motivation](#motivation)
-- [Objectives](#objectives)
-- [Google Services & Algorithms](#google-services--algorithms)
-- [References](#references)
+---
 
-## Details
+## 🔗 Table of Contents
+
+- [📌 Details](#-details)
+- [🎯 Motivation](#-motivation)
+- [🚀 Objectives](#-objectives)
+- [🧰 Skills](#-skills)
+- [📁 Projects](#-projects)
+- [🧮 Google Services & Algorithms](#google-services--algorithms)
+- [📚 References](#references)
+
+---
+
+## 📌 Details
 
 <dl>
-  <dt>Name</dt>
+  <dt><strong>Name</strong></dt>
   <dd>Shradha S. Kekare</dd>
 
-  <dt>USN</dt>
+  <dt><strong>USN</strong></dt>
   <dd>01fe22bcs263</dd>
 
-  <dt>Course Name</dt>
+  <dt><strong>Course Name</strong></dt>
   <dd>Algorithmic Problem Solving</dd>
 
-  <dt>Domain</dt>
+  <dt><strong>Domain</strong></dt>
   <dd>Google Services</dd>
 
-  <dt>Course Code</dt>
+  <dt><strong>Course Code</strong></dt>
   <dd>23ECSE304</dd>
 
-  <dt>Faculty</dt>
+  <dt><strong>Faculty</strong></dt>
   <dd>Prakash Hegade</dd>
 
-  <dt>University</dt>
+  <dt><strong>University</strong></dt>
   <dd>KLE Technological University, Hubballi-31</dd>
-  
 </dl>
 
 
+## 🎯 Motivation
 
-## Motivation
+> Why Google? Why Algorithms?
 
-🚀 To explore how Google’s widely used services utilize **Algorithmic principles** to deliver efficient and scalable features.
+With billions of users relying on Google every day, it's fascinating to understand how **intelligent algorithmic strategies** drive performance. This portfolio was inspired by a desire to bridge academic knowledge of **DSA** with **real-world services** we use daily.
 
-## Objectives
+---
 
-📌 The objectives of this portfolio include:
+## 🚀 Objectives
 
-- Identifying key Google services.
-- Highlighting **Various Algorithms** used in these services.
-- Explaining the purpose, working, and complexity of the algorithms.
-- Connecting algorithms with their real-world applications.
+- 🔍 Identify and explore core Google services.
+- 🔧 Highlight algorithms behind each functionality.
+- 📊 Explain how those algorithms work, and why they’re efficient.
+- 🌍 Link every algorithm to its real-world context.
 
-
+---
 
 ## Google Services & Algorithms
 
