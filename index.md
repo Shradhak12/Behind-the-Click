@@ -20,17 +20,29 @@ Here, we break down complex algorithmic concepts into understandable insights, c
 ## Details
 
 <dl>
+  <dt>Name</dt>
+  <dd>Shradha S. Kekare</dd>
+
+  <dt>USN</dt>
+  <dd>01fe22bcs263</dd>
+
   <dt>Course Name</dt>
   <dd>Algorithmic Problem Solving</dd>
+
   <dt>Domain</dt>
   <dd>Google Services</dd>
+
   <dt>Course Code</dt>
   <dd>23ECSE304</dd>
+
   <dt>Faculty</dt>
   <dd>Prakash Hegade</dd>
+
   <dt>University</dt>
   <dd>KLE Technological University, Hubballi-31</dd>
+  
 </dl>
+
 
 
 ## Motivation
@@ -50,68 +62,114 @@ Here, we break down complex algorithmic concepts into understandable insights, c
 
 ## Google Services & Algorithms
 
-### Google Search
+Explore how Google integrates powerful algorithms behind its core services. This timeline-style format outlines how each service operates step by step, highlighting the algorithms that make them fast, scalable, and intelligent.
 
-| Functionality        | Algorithms Used                                                                 |
-|----------------------|----------------------------------------------------------------------------------|
-| Query Matching       | **Rabin-Karp**, **KMP** [Details](1.html)                     |
-| Autocomplete         | **Trie**, **Ternary Search Tree** [Details](2.html)                   |
-| Page Ranking         | **PageRank**, **DFS/BFS** [Details](3.html)                |
-| Caching              | **LRU Cache**, **LFU Cache**, **HashMap + DLL** [Details](4.html)              |
-| Spell Correction     | **Levenshtein Distance**, **Trigram Matching** [Details](5.html)  |
 
----
+### 🔍 Google Search – From Query to Result
 
-### Google Maps
+1. **User enters a search query**  
+   → The query is matched using **Rabin-Karp** and **KMP** string matching algorithms.  
+   📄 [Details](1.html)
 
-| Functionality        | Algorithms Used                                                                 |
-|----------------------|----------------------------------------------------------------------------------|
-| Shortest Path        | **Dijkstra’s Algorithm**, **A\* Search**, **Bellman-Ford** [Details](6.html)    |
-| Traffic Estimation   | **Dynamic Graphs**, **Real-time A\***, **Floyd-Warshall** [Details](7.html)     |
-| Location Clustering  | **Union-Find**, **DBSCAN**, **K-Means** [Details](8.html)                        |
-| Region Analysis      | **Convex Hull (Graham Scan)**, **K-D Tree** [Details](9.html) |
+2. **Autocomplete suggestions appear**  
+   → Generated in real-time using **Trie** and **Ternary Search Trees**.  
+   📄 [Details](2.html)
 
----
+3. **Relevant pages are ranked**  
+   → Ranked by importance using **PageRank**, **DFS**, and **BFS** over the link graph.  
+   📄 [Details](3.html)
 
-### Gmail
+4. **Frequently accessed results are cached**  
+   → Handled by **LRU**, **LFU**, and **HashMap + DLL** based caches.  
+   📄 [Details](4.html)
 
-| Functionality        | Algorithms Used                                                                 |
-|----------------------|----------------------------------------------------------------------------------|
-| Email Threading      | **Union-Find**, **Hash Maps**, **Disjoint Sets** [Details](10.html)             |
-| Caching              | **LRU Cache**, **LFU Cache**, **ARC** [Details](11.html)                        |
-| Attachment Handling  | **Huffman Coding** [Details](12.html) |
-| Search               | **Inverted Index** [Details](13.html)                      |
+5. **Spelling mistakes are corrected**  
+   → Corrected using **Levenshtein Distance** and **Trigram Matching**.  
+   📄 [Details](5.html)
 
 ---
 
-### YouTube
+### 🗺️ Google Maps – Navigating the Real World
 
-| Functionality        | Algorithms Used                                                                 |
-|----------------------|----------------------------------------------------------------------------------|
-| Video Indexing       |  **Suffix Tree**, **Inverted Index** [Details](14.html)                |
-| Video Search         | **Suffix Arrays**, **KMP** [Details](15.html)                 |
-| Trending Detection   | **Sliding Window**, **Heap-based Counters**[Details](16.html) |
-| Compression          | **Huffman Coding**, **Arithmetic Coding**, **Run-Length Encoding** [Details](17.html) |
+1. **User requests directions**  
+   → Shortest paths computed using **Dijkstra's**, **A\* Search**, or **Bellman-Ford**.  
+   📄 [Details](6.html)
+
+2. **Live traffic is analyzed**  
+   → Traffic estimates made using **Dynamic Graphs**, **Real-time A\***, and **Floyd-Warshall**.  
+   📄 [Details](7.html)
+
+3. **Nearby places are grouped**  
+   → Clustered using **Union-Find**, **DBSCAN**, or **K-Means** algorithms.  
+   📄 [Details](8.html)
+
+4. **Regional boundaries are analyzed**  
+   → Handled with **Convex Hull (Graham Scan)** and **K-D Trees** for spatial mapping.  
+   📄 [Details](9.html)
 
 ---
 
+### 📧 Gmail – Smarter Email Management
 
+1. **Emails are grouped into threads**  
+   → Achieved with **Union-Find**, **Disjoint Sets**, and **Hash Maps**.  
+   📄 [Details](10.html)
 
-### Google Calendar
+2. **Frequently viewed emails are cached**  
+   → Managed using **LRU**, **LFU**, and **ARC** caching strategies.  
+   📄 [Details](11.html)
 
-| Functionality        | Algorithms Used                                                                 |
-|----------------------|----------------------------------------------------------------------------------|
-| Event Sorting        | **Merge Sort**, **Quick Sort**, **Heap Sort** [Details](18.html)                |
-| Date Lookup          | **Binary Search**, **Sparse Table**, **Segment Trees** [Details](19.html)       |
-| Reminders            | **Priority Queue**, **Min-Heap**, **Time Wheel** [Details](20.html)             |
+3. **Attachments are compressed**  
+   → Compressed efficiently using **Huffman Coding**.  
+   📄 [Details](12.html)
 
+4. **Search across mailbox is performed**  
+   → Uses **Inverted Index** for fast keyword lookup.  
+   📄 [Details](13.html)
 
+---
+
+### 📺 YouTube – Organizing the Video World
+
+1. **Videos are indexed**  
+   → Structured using **Suffix Trees** and **Inverted Index** to support fast retrieval.  
+   📄 [Details](14.html)
+
+2. **Users search for videos**  
+   → Matches video metadata using **Suffix Arrays** and **KMP** pattern matching.  
+   📄 [Details](15.html)
+
+3. **Trending content is detected**  
+   → Tracked using **Sliding Window** techniques and **Heap-based Counters**.  
+   📄 [Details](16.html)
+
+4. **Videos are compressed for storage**  
+   → Uses **Huffman Coding**, **Arithmetic Coding**, and **Run-Length Encoding**.  
+   📄 [Details](17.html)
+
+---
+
+### 📆 Google Calendar – Scheduling Smarter
+
+1. **Event is created and stored**  
+   → Events are sorted using **Merge Sort**, **Quick Sort**, or **Heap Sort**.  
+   📄 [Details](18.html)
+
+2. **System checks for availability**  
+   → Uses **Binary Search**, **Sparse Tables**, or **Segment Trees** to avoid overlaps.  
+   📄 [Details](19.html)
+
+3. **Reminder is set for the user**  
+   → Managed using **Priority Queues**, **Min-Heaps**, or **Time Wheels** for timely alerts.  
+   📄 [Details](20.html)
+
+---
 
 ## References
 
-1. GeeksforGeeks: https://www.geeksforgeeks.org/
-3. Wikipedia - Dijkstra, Trie, Hashing
-4. Stack Overflow Discussions
+- [GeeksforGeeks](https://www.geeksforgeeks.org/)  
+- Wikipedia: Dijkstra, Trie, Hashing  
+- Stack Overflow Discussions
 
+> 📌 This markdown portfolio outlines the key **Data Structures and Algorithms (DSA)** behind Google’s services, providing insight into real-world applications of theoretical concepts.
 
-> 📌 This portfolio strictly explores core **Data Structures and Algorithms (DSA)** involved in the functioning of Google’s services.
