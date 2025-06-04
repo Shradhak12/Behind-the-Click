@@ -1,7 +1,8 @@
 ---
-layout: default
-title: Home
+layout: landing  # or 'post', 'home', etc. (depends on your theme)
+title: Behind The Click
 ---
+
 
 > "Behind every seamless Google experience lies a carefully crafted algorithm."
 
