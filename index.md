@@ -1,5 +1,5 @@
 ---
-layout: landing  # or 'post', 'home', etc. (depends on your theme)
+layout: default
 title: Behind The Click
 ---
 
