@@ -73,101 +73,244 @@ Explore how Google integrates powerful algorithms behind its core services. This
 
 ### 🔍 Google Search – From Query to Result
 
-1. **User enters a search query**  
-   → The query is matched using **Rabin-Karp** and **KMP** string matching algorithms.  
-   📄 [Details](1.html)
+<details open>
+<summary>1. 🧠 Query Matching using Rabin-Karp & KMP</summary>
 
-2. **Autocomplete suggestions appear**  
-   → Generated in real-time using **Trie** and **Ternary Search Trees**.  
-   📄 [Details](2.html)
+- ✏️ **What happens**: User enters a search query.
+- 🔍 **How it works**: The query is matched using **Rabin-Karp** and **KMP**.
+- 🎞️ **Watch it work**:  
+  ![Rabin-Karp vs KMP](images/rk_kmp.gif) <!-- Your GIF here -->
+- 📄 [See Code + Explanation](1.html)
+</details>
 
-3. **Relevant pages are ranked**  
-   → Ranked by importance using **PageRank**, **DFS**, and **BFS** over the link graph.  
-   📄 [Details](3.html)
 
-4. **Frequently accessed results are cached**  
-   → Handled by **LRU**, **LFU**, and **HashMap + DLL** based caches.  
-   📄 [Details](4.html)
 
-5. **Spelling mistakes are corrected**  
-   → Corrected using **Levenshtein Distance** and **Trigram Matching**.  
-   📄 [Details](5.html)
+<details>
+<summary>2. ⚡ Autocomplete via Trie & TST</summary>
 
----
+- ✏️ **What happens**: Autocomplete suggestions appear while typing.
+- 🧠 **How it works**: Uses **Trie** and **Ternary Search Trees** for prefix matching.
+- 🎞️ **Watch it work**:  
+  ![Autocomplete Trie](images/trie_autocomplete.gif)
+- 📄 [See Code + Explanation](2.html)
+</details>
 
-### 🗺️ Google Maps – Navigating the Real World
 
-1. **User requests directions**  
-   → Shortest paths computed using **Dijkstra's**, **A\* Search**, or **Bellman-Ford**.  
-   📄 [Details](6.html)
 
-2. **Live traffic is analyzed**  
-   → Traffic estimates made using **Dynamic Graphs**, **Real-time A\***, and **Floyd-Warshall**.  
-   📄 [Details](7.html)
+<details>
+<summary>3. 📈 Ranking with PageRank, DFS & BFS</summary>
 
-3. **Nearby places are grouped**  
-   → Clustered using **Union-Find**, **DBSCAN**, or **K-Means** algorithms.  
-   📄 [Details](8.html)
+- ✏️ **What happens**: Relevant pages are ranked.
+- 🧠 **How it works**: **PageRank**, **DFS**, and **BFS** traverse the link graph to rank pages.
+- 🎞️ **Watch it work**:   
+  ![PageRank Visualization](images/pagerank.gif)
+- 📄 [See Code + Explanation](3.html)
+</details>
 
-4. **Regional boundaries are analyzed**  
-   → Handled with **Convex Hull (Graham Scan)** and **K-D Trees** for spatial mapping.  
-   📄 [Details](9.html)
 
----
 
-### 📧 Gmail – Smarter Email Management
+<details>
+<summary>4. 🗂️ Caching with LRU, LFU, HashMap + DLL</summary>
 
-1. **Emails are grouped into threads**  
-   → Achieved with **Union-Find**, **Disjoint Sets**, and **Hash Maps**.  
-   📄 [Details](10.html)
+- ✏️ **What happens**: Frequently accessed results are cached.
+- 🧠 **How it works**: Uses **LRU**, **LFU**, and **HashMap + DLL** for quick lookups.
+- 🎞️ **Watch it work**:  
+  ![LRU Cache Demo](images/lru_cache.gif)
+- 📄 [See Code + Explanation](4.html)
+</details>
 
-2. **Frequently viewed emails are cached**  
-   → Managed using **LRU**, **LFU**, and **ARC** caching strategies.  
-   📄 [Details](11.html)
 
-3. **Attachments are compressed**  
-   → Compressed efficiently using **Huffman Coding**.  
-   📄 [Details](12.html)
 
-4. **Search across mailbox is performed**  
-   → Uses **Inverted Index** for fast keyword lookup.  
-   📄 [Details](13.html)
+<details>
+<summary>5. ✨ Spell Correction using Levenshtein & Trigrams</summary>
+
+- ✏️ **What happens**: Misspelled queries are auto-corrected.
+- 🧠 **How it works**: Uses **Levenshtein Distance** to find closest valid words, **Trigrams** to rank them.
+- 🎞️ **Watch it work**:  
+  ![Levenshtein Demo](images/levenshtein.gif)
+- 📄 [See Code + Explanation](5.html)
+</details>
 
 ---
 
-### 📺 YouTube – Organizing the Video World
+## 🗺️ Google Maps – Navigating the Real World
 
-1. **Videos are indexed**  
-   → Structured using **Suffix Trees** and **Inverted Index** to support fast retrieval.  
-   📄 [Details](14.html)
+<details open>
+<summary>1. 🚗 Route Finding with Dijkstra, A*, Bellman-Ford</summary>
 
-2. **Users search for videos**  
-   → Matches video metadata using **Suffix Arrays** and **KMP** pattern matching.  
-   📄 [Details](15.html)
+- ✏️ **What happens**: User requests directions.
+- 🧠 **How it works**: Computes shortest path using **Dijkstra’s**, **A\***, or **Bellman-Ford**.
+- 🎞️ **Watch it work**:  
 
-3. **Trending content is detected**  
-   → Tracked using **Sliding Window** techniques and **Heap-based Counters**.  
-   📄 [Details](16.html)
+  ![Dijkstra Path](images/dijkstra_map.gif)
+- 📄 [Details](6.html)
+</details>
 
-4. **Videos are compressed for storage**  
-   → Uses **Huffman Coding**, **Arithmetic Coding**, and **Run-Length Encoding**.  
-   📄 [Details](17.html)
+<details>
+<summary>2. 🚦 Live Traffic Analysis with Real-time Algorithms</summary>
+
+- ✏️ **What happens**: Traffic conditions influence route choices.
+- 🧠 **How it works**: Uses **Dynamic Graphs**, **Real-time A\***, and **Floyd-Warshall** for adjustments.
+- 🎞️ **Watch it work**:  
+   
+  ![Traffic GIF](images/traffic_analysis.gif)
+- 📄 [Details](7.html)
+</details>
+
+<details>
+<summary>3. 📍 Clustering Nearby Places</summary>
+
+- ✏️ **What happens**: Nearby places are grouped.
+- 🧠 **How it works**: Clustering with **Union-Find**, **DBSCAN**, or **K-Means**.
+- 🎞️ **Watch it work**:  
+  _Animated GIF showing nearby points being grouped into clusters._  
+  ![Clustering GIF](images/nearby_cluster.gif)
+- 📄 [Details](8.html)
+</details>
+
+<details>
+<summary>4. 🗺️ Spatial Mapping with Convex Hull & K-D Trees</summary>
+
+- ✏️ **What happens**: Regional boundaries are computed.
+- 🧠 **How it works**: Uses **Convex Hull (Graham Scan)** and **K-D Trees**.
+- 🎞️ **Watch it work**:  
+  _GIF showing region boundaries forming around geo-points._  
+  ![Convex Hull GIF](images/convex_kdtree.gif)
+- 📄 [Details](9.html)
+</details>
 
 ---
 
-### 📆 Google Calendar – Scheduling Smarter
+## 📧 Gmail – Smarter Email Management
 
-1. **Event is created and stored**  
-   → Events are sorted using **Merge Sort**, **Quick Sort**, or **Heap Sort**.  
-   📄 [Details](18.html)
+<details open>
+<summary>1. 🧵 Threading Emails with Union-Find</summary>
 
-2. **System checks for availability**  
-   → Uses **Binary Search**, **Sparse Tables**, or **Segment Trees** to avoid overlaps.  
-   📄 [Details](19.html)
+- ✏️ **What happens**: Emails are grouped into threads.
+- 🧠 **How it works**: Uses **Disjoint Sets**, **Union-Find**, and **Hash Maps**.
+- 🎞️ **Watch it work**:  
+  
+  ![Email Thread GIF](images/email_thread.gif)
+- 📄 [Details](10.html)
+</details>
 
-3. **Reminder is set for the user**  
-   → Managed using **Priority Queues**, **Min-Heaps**, or **Time Wheels** for timely alerts.  
-   📄 [Details](20.html)
+<details>
+<summary>2. 💾 Caching Frequently Accessed Emails</summary>
+
+- ✏️ **What happens**: Frequently opened emails are cached.
+- 🧠 **How it works**: Caching via **LRU**, **LFU**, and **ARC** strategies.
+- 🎞️ **Watch it Work**:  
+ 
+  ![Email Cache GIF](images/email_cache.gif)
+- 📄 [Details](11.html)
+</details>
+
+<details>
+<summary>3. 📎 Compressing Attachments with Huffman Coding</summary>
+
+- ✏️ **What happens**: Attachments are compressed for storage.
+- 🧠 **How it works**: Compression using **Huffman Coding**.
+- 🎞️ **Watch it work**:  
+
+  ![Huffman GIF](images/huffman_compression.gif)
+- 📄 [Details](12.html)
+</details>
+
+<details>
+<summary>4. 🔎 Fast Mail Search with Inverted Index</summary>
+
+- ✏️ **What happens**: Searching across your inbox.
+- 🧠 **How it works**: Uses an **Inverted Index** for fast keyword lookups.
+- 🎞️ **Watch it work**:  
+
+  ![Inverted Index GIF](images/inverted_index.gif)
+- 📄 [Details](13.html)
+</details>
+
+---
+
+## 📺 YouTube – Organizing the Video World
+
+<details open>
+<summary>1. 🗂️ Video Indexing using Suffix Trees</summary>
+
+- ✏️ **What happens**: Videos are indexed for search and recommendations.
+- 🧠 **How it works**: Structures like **Suffix Trees** and **Inverted Index** are used.
+- 🎞️ **Watchit work**:  
+
+  ![Suffix Tree GIF](images/suffix_tree.gif)
+- 📄 [Details](14.html)
+</details>
+
+<details>
+<summary>2. 🔍 Metadata Search using Suffix Arrays & KMP</summary>
+
+- ✏️ **What happens**: User searches for videos.
+- 🧠 **How it works**: Matches metadata using **Suffix Arrays** and **KMP**.
+- 🎞️ **Watch it work**:  
+
+  ![KMP Metadata GIF](images/kmp_suffix.gif)
+- 📄 [Details](15.html)
+</details>
+
+<details>
+<summary>3. 📊 Detecting Trends via Sliding Window</summary>
+
+- ✏️ **What happens**: Trending content is surfaced.
+- 🧠 **How it works**: Detected with **Sliding Window** and **Heap Counters**.
+- 🎞️ **Watch it work**:  
+
+  ![Trending Detection GIF](images/trending_window.gif)
+- 📄 [Details](16.html)
+</details>
+
+<details>
+<summary>4. 🗜️ Video Compression Techniques</summary>
+
+- ✏️ **What happens**: Videos are compressed for storage efficiency.
+- 🧠 **How it works**: Uses **Huffman**, **Arithmetic**, and **Run-Length Encoding**.
+- 🎞️ **Watch it work**:  
+  
+  ![Video Compression GIF](images/video_compress.gif)
+- 📄 [Details](17.html)
+</details>
+
+---
+
+## 📆 Google Calendar – Scheduling Smarter
+
+<details open>
+<summary>1. 🗓️ Event Sorting with Classic Sort Algorithms</summary>
+
+- ✏️ **What happens**: Events are sorted chronologically.
+- 🧠 **How it works**: Uses **Merge Sort**, **Quick Sort**, or **Heap Sort**.
+- 🎞️ **Watch it work**:  
+ 
+  ![Sort Events GIF](images/calendar_sort.gif)
+- 📄 [Details](18.html)
+</details>
+
+<details>
+<summary>2. ⏳ Availability Checking via Interval Search</summary>
+
+- ✏️ **What happens**: System checks for free time slots.
+- 🧠 **How it works**: Uses **Binary Search**, **Sparse Tables**, and **Segment Trees**.
+- 🎞️ **Watch it work**:  
+
+  ![Calendar Search GIF](images/calendar_check.gif)
+- 📄 [Details](19.html)
+</details>
+
+<details>
+<summary>3. ⏰ Reminders via Priority Queues</summary>
+
+- ✏️ **What happens**: Reminders pop up before events.
+- 🧠 **How it works**: Uses **Priority Queues**, **Min-Heaps**, and **Time Wheels**.
+- 🎞️ **Watch it work**:  
+
+  ![Reminder Queue GIF](images/reminder_heap.gif)
+- 📄 [Details](20.html)
+</details>
 
 ---
 
