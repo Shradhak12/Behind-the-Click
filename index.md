@@ -18,8 +18,6 @@ Whether you're curious about how a Trie powers Autocomplete or how PageRank work
 - [📌 Details](#-details)
 - [🎯 Motivation](#-motivation)
 - [🚀 Objectives](#-objectives)
-- [🧰 Skills](#-skills)
-- [📁 Projects](#-projects)
 - [🧮 Google Services & Algorithms](#google-services--algorithms)
 - [📚 References](#references)
 
