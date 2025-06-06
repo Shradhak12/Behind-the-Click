@@ -43,6 +43,7 @@ Whether you're curious about how a Trie powers Autocomplete or how PageRank work
   <dd>KLE Technological University, Hubballi-31</dd>
 </dl>
 
+![Google Logo](images/google_logo.gif)
 
 ## Google Services & Algorithms
 
