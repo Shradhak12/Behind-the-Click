@@ -1,3 +1,31 @@
-title: BehindtheClick
-theme: jekyll-theme-minimal
+title: "Behind the Click"
+description: "Exploring the tech behind every tap, scroll, and search."
 
+# Use remote_theme because GitHub Pages does NOT support this theme natively
+theme: null
+remote_theme: just-the-docs/just-the-docs
+
+# Site URL settings (must match your GitHub Pages domain)
+url: "https://Shradhakekare.github.io"
+baseurl: "/behind-the-click"  # Replace with your actual repo name
+
+# Optional: Color scheme
+color_scheme: Dark  # Options: 'light' or 'dark'
+
+# Enable required plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
+
+# Navigation settings
+nav_sort: case_insensitive
+search_enabled: true
+
+# Footer
+footer_content: "© 2025 Behind the Click • All rights reserved."
+
+# Logo (optional - update to your logo path if you have one)
+# logo: "/assets/images/behindtheclick_logo.svg"
