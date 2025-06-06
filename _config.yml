@@ -1,35 +1,28 @@
-site_title: "Behind the Click"
-tagline: "The untold code behind the experience."
+title: "BehindtheClick"
+description: "Signals. Algorithms. Interfaces. Welcome to the invisible architecture of the Google."
 
-# 🍃 Custom visual identity
-theme: null
-remote_theme: "jivanc/accessible-dark"  # A lesser-used, dark-friendly remote theme
+theme: jekyll-theme-modernist
 
-# 📍 Hosting details
-host_url: "https://shradhakekare.github.io"
-project_slug: "/clicktheory"  # Keep it repo-accurate
+# Site details
+url: "https://shradhakekare.github.io"
+baseurl: "/behindtheclick"  # your repo name
 
-# 🎨 Design toggles
-palette_mode: cyberpunk  # hypothetical, some themes allow this
-font_style: mono  
-syntax_highlighter: rouge
+# Markdown + Code style
+markdown: kramdown
+highlighter: rouge
 
-# 🧩 Active plugins
+# Plugins officially supported by GitHub Pages
 plugins:
-  - jekyll-remote-theme
-  - jekyll-sitemap
+  - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-sitemap
 
-# ✍️ Markdown rendering
-md_engine: kramdown
+# SEO Meta (enabled via plugin)
+author: "Shradha Kekare"
+lang: en
+timezone: Asia
 
-# 🔎 UX tweaks
-enable_search: true
-sort_nav: reverse
-show_last_updated: false
+# Custom Footer (done inside your _layouts or index.md)
+footer_text: "Built for the ones who wonder what happens *after* you click."
 
-# 📌 Footer signature
-credits: "Built different. © 2025 ClickTheory"
-
-# 🪪 Identity badge (logo alt if needed)
-# favicon_path: "/media/icon-ct.svg"
+# Navigation (create _pages and link them manually using markdown or HTML in index.md)
