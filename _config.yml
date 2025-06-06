@@ -1,2 +1,9 @@
 title: Behind the Click
+description: "An inside look at the algorithms behind your favorite search engines"
 theme: jekyll-theme-modernist
+author: 01fe22bcs263
+url: "https://shradhak12.github.io"                # You can set to your GitHub Pages site if published (e.g., https://yourusername.github.io)
+baseurl: "https://behindtheclick.github.io"            # Set this only if your repo name differs from your GitHub username
+markdown: kramdown
+permalink: pretty
+show_downloads: false  # Prevents “Download” button from appearing
