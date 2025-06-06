@@ -1,31 +1,35 @@
-title: "Behind the Click"
-description: "Exploring the tech behind every tap, scroll, and search."
+site_title: "Behind the Click"
+tagline: "The untold code behind the experience."
 
-# Use remote_theme because GitHub Pages does NOT support this theme natively
+# 🍃 Custom visual identity
 theme: null
-remote_theme: just-the-docs/just-the-docs
+remote_theme: "jivanc/accessible-dark"  # A lesser-used, dark-friendly remote theme
 
-# Site URL settings (must match your GitHub Pages domain)
-url: "https://Shradhakekare.github.io"
-baseurl: "/behind-the-click"  # Replace with your actual repo name
+# 📍 Hosting details
+host_url: "https://shradhakekare.github.io"
+project_slug: "/clicktheory"  # Keep it repo-accurate
 
-# Optional: Color scheme
-color_scheme: Dark  # Options: 'light' or 'dark'
+# 🎨 Design toggles
+palette_mode: cyberpunk  # hypothetical, some themes allow this
+font_style: mono  
+syntax_highlighter: rouge
 
-# Enable required plugins
+# 🧩 Active plugins
 plugins:
   - jekyll-remote-theme
-  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 
-markdown: kramdown
-highlighter: rouge
+# ✍️ Markdown rendering
+md_engine: kramdown
 
-# Navigation settings
-nav_sort: case_insensitive
-search_enabled: true
+# 🔎 UX tweaks
+enable_search: true
+sort_nav: reverse
+show_last_updated: false
 
-# Footer
-footer_content: "© 2025 Behind the Click • All rights reserved."
+# 📌 Footer signature
+credits: "Built different. © 2025 ClickTheory"
 
-# Logo (optional - update to your logo path if you have one)
-# logo: "/assets/images/behindtheclick_logo.svg"
+# 🪪 Identity badge (logo alt if needed)
+# favicon_path: "/media/icon-ct.svg"
