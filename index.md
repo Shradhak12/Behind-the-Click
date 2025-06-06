@@ -2,8 +2,8 @@
 layout: default
 title: Behind The Click
 description: >
-  Behind The Click takes you on a journey beneath the surface of your favorite Google services, revealing the clever algorithms and smart data structures that make everything work smoothly    and quickly. 
-  Discover the magic behind every click and swipe.
+  Revealing the code and logic behind every Google click and experience.
+
 
   
 ---
