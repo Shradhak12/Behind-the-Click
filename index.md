@@ -17,17 +17,6 @@ Explore how classical and modern **Data Structures and Algorithms (DSA)** bring 
 
 Whether you're curious about how a Trie powers Autocomplete or how PageRank works behind search results – this portfolio makes it all accessible, meaningful, and connected to reality.
 
----
-
-## 🔗 Table of Contents
-
-- [📌 Details](#-details)
-- [🎯 Motivation](#-motivation)
-- [🚀 Objectives](#-objectives)
-- [🧮 Google Services & Algorithms](#google-services--algorithms)
-- [📚 References](#references)
-
----
 
 ## 📌 Details
 
@@ -54,23 +43,6 @@ Whether you're curious about how a Trie powers Autocomplete or how PageRank work
   <dd>KLE Technological University, Hubballi-31</dd>
 </dl>
 
-
-## 🎯 Motivation
-
-> Why Google? Why Algorithms?
-
-With billions of users relying on Google every day, it's fascinating to understand how **intelligent algorithmic strategies** drive performance. This portfolio was inspired by a desire to bridge academic knowledge of **DSA** with **real-world services** we use daily.
-
----
-
-## 🚀 Objectives
-
-- 🔍 Identify and explore core Google services.
-- 🔧 Highlight algorithms behind each functionality.
-- 📊 Explain how those algorithms work, and why they’re efficient.
-- 🌍 Link every algorithm to its real-world context.
-
----
 
 ## Google Services & Algorithms
 
