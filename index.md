@@ -1,7 +1,13 @@
 ---
 layout: default
 title: Behind The Click
+description: >
+  Behind The Click takes you on a journey beneath the surface of your favorite Google services, revealing the clever algorithms and smart data structures that make everything work smoothly    and quickly. 
+  Discover the magic behind every click and swipe.
+
+  
 ---
+
 
 > 🧠 "Behind every seamless Google experience lies a carefully crafted algorithm."
 
@@ -207,6 +213,41 @@ Explore how Google integrates powerful algorithms behind its core services. This
    📄 [Details](20.html)  
    🎞️ **Watch It Work**  
    ![](images/reminder_priority_queue.gif)
+
+4. **Recurring events are managed**  
+   → Efficiently tracked with **Linked Lists**, **Hash Maps**, and **Cycle Detection (Floyd’s Algorithm)** for repeating schedules.  
+   📄 [Details](21.html)  
+   🎞️ **Watch It Work**  
+   ![](images/recurring_events.gif)
+
+---
+
+### 📸 Google Photos – Organizing Memories with Intelligence
+
+1. **Duplicate photos are detected and removed**  
+   → Using **Hashing**, **Bloom Filters**, and **Hamming Distance** for image fingerprinting.  
+   📄 [Details](22.html)  
+   🎞️ **Watch It Work**  
+   ![](images/photo_deduplication.gif)
+
+2. **Albums are created automatically**  
+   → Clustered with **K-Means**, **DBSCAN**, and **Cosine Similarity** on metadata + timestamps.  
+   📄 [Details](23.html)  
+   🎞️ **Watch It Work**  
+   ![](images/auto_album_clustering.gif)
+
+3. **Timeline view is arranged by date**  
+   → Organized using **Radix Sort**, **Bucket Sort**, or **Custom Comparators**.  
+   📄 [Details](24.html)  
+   🎞️ **Watch It Work**  
+   ![](images/timeline_sorting.gif)
+
+4. **Face grouping across photos**  
+   → Performed using **Disjoint Set Union (DSU)**, **Euclidean Distance**, and **Graph Components**.  
+   📄 [Details](25.html)  
+   🎞️ **Watch It Work**  
+   ![](images/face_grouping_dsu.gif)
+
 
 ## References
 
