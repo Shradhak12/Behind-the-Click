@@ -1,28 +1,2 @@
-title: "BehindtheClick"
-description: "Signals. Algorithms. Interfaces. Welcome to the invisible architecture of the Google."
-
+title: Behind the Click
 theme: jekyll-theme-leap-day
-
-# Site details
-url: "https://shradhakekare.github.io"
-baseurl: "/behindtheclick"  # your repo name
-
-# Markdown + Code style
-markdown: kramdown
-highlighter: rouge
-
-# Plugins officially supported by GitHub Pages
-plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-sitemap
-
-# SEO Meta (enabled via plugin)
-author: "Shradha Kekare"
-lang: en
-timezone: Asia
-
-# Custom Footer (done inside your _layouts or index.md)
-footer_text: "Built for the ones who wonder what happens *after* you click."
-
-# Navigation (create _pages and link them manually using markdown or HTML in index.md)
