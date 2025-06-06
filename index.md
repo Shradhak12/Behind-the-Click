@@ -197,26 +197,26 @@ Explore how Google integrates powerful algorithms behind its core services. This
 
 ### 📸 Google Photos – Organizing Memories with Intelligence
 
-1. **Duplicate photos are detected and removed**  
-   → Using **Hashing**, **Bloom Filters**, and **Hamming Distance** for image fingerprinting.  
+1. **🗑️ Duplicate photos are detected and removed**  
+   → Leveraging **Hash Tables** for quick image hashing, **Bloom Filters** for space-efficient duplicate checks, and **Hamming Distance** for perceptual similarity detection.  
    📄 [Details](22.html)  
    🎞️ **Watch It Work**  
    ![](images/photo_deduplication.gif)
 
-2. **Albums are created automatically**  
-   → Clustered with **K-Means**, **DBSCAN**, and **Cosine Similarity** on metadata + timestamps.  
+2. **🗂️ Albums are created automatically**  
+   → Clustered using **K-Means** and **DBSCAN**, guided by **Cosine Similarity** and **metadata trees** (e.g., date → location → tag) to group related photos.  
    📄 [Details](23.html)  
    🎞️ **Watch It Work**  
    ![](images/auto_album_clustering.gif)
 
-3. **Timeline view is arranged by date**  
-   → Organized using **Radix Sort**, **Bucket Sort**, or **Custom Comparators**.  
+3. **🕒 Timeline view is arranged by date**  
+   → Efficiently sorted using **Radix Sort** and **Bucket Sort** for date fields, or using **Custom Comparators** in **Balanced BSTs** or **Min-Heaps**.  
    📄 [Details](24.html)  
    🎞️ **Watch It Work**  
    ![](images/timeline_sorting.gif)
 
-4. **Face grouping across photos**  
-   → Performed using **Disjoint Set Union (DSU)**, **Euclidean Distance**, and **Graph Components**.  
+4. **👥 Face grouping across photos**  
+   → Constructed as a graph problem: nodes represent faces, edges represent similarity; solved using **Disjoint Set Union (DSU)** for grouping, **Euclidean Distance** for similarity, and **Connected Components** detection in **Adjacency Lists**.  
    📄 [Details](25.html)  
    🎞️ **Watch It Work**  
    ![](images/face_grouping_dsu.gif)
