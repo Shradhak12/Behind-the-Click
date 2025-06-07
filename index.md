@@ -41,7 +41,7 @@ From the instant results of Search to the route optimizations in Maps, this port
 </dl>
 
 <p align="center">
-  <img src="images/google.png" alt="Google Logo" width="400">
+  <img src="images/gogle.png" alt="Google Logo" width="400">
 </p>
 
 ---
