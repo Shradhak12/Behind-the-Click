@@ -197,7 +197,7 @@ Within seconds, the user gets:
 All thanks to the smart use of **DSA-powered algorithms** that bring intelligence to navigation.
 
 ---
-> 🔎 **Summary**: Google Maps uses classic graph algorithms, clustering techniques, and spatial data structures to deliver real-time, intelligent navigation experiences.4
+> 🔎 Summary: Google Maps uses classic graph algorithms, clustering techniques, and spatial data structures to deliver real-time, intelligent navigation experiences.4
 ---
 
 ### 📺 YouTube – Organizing the Video World
