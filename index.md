@@ -197,9 +197,8 @@ Within seconds, the user gets:
 
 
 
----
-> 🔎 **Summary**:  Google Maps uses classic graph algorithms, clustering techniques, and spatial data structures to deliver real-time, intelligent navigation experiences.
----
+> 🔎 **Summary: Google Maps uses classic graph algorithms, clustering techniques, and spatial data structures to deliver real-time, intelligent navigation experiences.**
+
 
 ### 📺 Case Study: How YouTube Organizes the Video World
 
