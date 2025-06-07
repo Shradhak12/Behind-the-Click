@@ -61,8 +61,9 @@ Explore how Google integrates powerful algorithms behind its core services. This
 > Welcome to your day, powered by code.
 
 <p align="center">
-  <img src="images/story.jpg" alt="A Day in the Googleverse" width="600">
+  <img src="images/story.png" alt="A Day in the Googleverse" width="600" height="400">
 </p>
+
 
 ---
 
@@ -225,7 +226,7 @@ Calendar detects conflicts using **Binary Search**, **Segment Trees**, and **Spa
   Efficient for checking overlapping time slots.
 
 # ⏰ Step 3: Sending Reminders
-Reminders are scheduled using **Priority Queues**, **Min-Heaps**, and **Time Wheels**.  
+Reminders are scheduled using **Priority Queues**, **Min-Heaps**.  
 📄 [Details](16.html)
 
 - **Why Scheduling Structures?**  
