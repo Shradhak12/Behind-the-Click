@@ -9,9 +9,9 @@ description: >
   🧠 “Every tap on a Google service triggers a chain of finely-tuned algorithms — it’s time to uncover what clicks behind the click.”
 </p>
 
-**Welcome to Behind The Click — a curated exploration of the algorithmic blueprints driving Google's smartest features.**
+Welcome to Behind The Click — a curated exploration of the algorithmic blueprints driving Google's smartest features.
 
-**From the instant results of Search to the route optimizations in Maps, this portfolio connects everyday experiences with the data structures and algorithms behind them. It's not just about theory — it's about understanding how real-world systems are built.**
+From the instant results of Search to the route optimizations in Maps, this portfolio connects everyday experiences with the data structures and algorithms behind them. It's not just about theory — it's about understanding how real-world systems are built.
 
 ---
 
@@ -56,14 +56,13 @@ Explore how Google integrates powerful algorithms behind its core services. This
 
 > It starts with a search. A curious morning thought leads you to Google. That one phrase — typed in seconds — triggers trillions of instructions. From instant recommendations in YouTube to live traffic updates on Maps, Google becomes your silent co-pilot.  
 >  
-> As the day unfolds, you swipe through old photos, respond to a Calendar notification, and take a shortcut thanks to Maps’ clever rerouting. It feels seamless. But behind every feature lies a symphony of intelligent data structures and algorithms — working tirelessly to anticipate your needs.  
+> As the day unfolds, you swipe through old photos, respond to a Calendar notification, and take a shortcut thanks to Maps’ clever rerouting. It feels seamless. But behind every feature lies a symphony of intelligent data structures and algorithms — working tirelessly to anticipate your needs.
 >  
 > Welcome to your day, powered by code.
 
 <p align="center">
   <img src="images/story.png" alt="A Day in the Googleverse" width="600" height="400">
 </p>
-
 
 ---
 
@@ -73,38 +72,23 @@ Explore how Google integrates powerful algorithms behind its core services. This
 
 > On a regular morning, a user types "Best DSLR Cameras for Beginners" into Google. Within milliseconds, Google presents hundreds of relevant, ranked, and refined results. But what’s happening behind the scenes?
 
-# 🛠️ Step 1: String Matching Begins
-To match the query to documents, **Rabin-Karp** and **KMP** algorithms are applied for efficient pattern searching across billions of indexed web pages.  
-📄 [Details](1.html)
-
+### [🛠️ Step 1: String Matching Begins](1.html)
 - **Why KMP/Rabin-Karp?**  
   Fast and scalable substring matching by avoiding re-checking characters.
 
-# 🧠 Step 2: Autocomplete Kicks In
-Before the user even finishes typing, suggestions like *"Best DSLR Cameras 2025"* pop up — thanks to **Trie** and **Ternary Search Trees** enabling prefix-based lookups in real time.  
-📄 [Details](2.html)
-
+### [🧠 Step 2: Autocomplete Kicks In](2.html)
 - **Why Tries?**  
   Lookup time is reduced to O(L), where L is the length of the prefix.
 
-# 📈 Step 3: Page Ranking Magic
-Once results are fetched, they’re sorted using **PageRank**, combined with **DFS** and **BFS** to traverse the web’s graph of interconnected pages.  
-📄 [Details](3.html)
-
+### [📈 Step 3: Page Ranking Magic](3.html)
 - **Why Graph Algorithms?**  
   They evaluate importance based on the number and quality of inbound links.
 
-# 💾 Step 4: Caching for Speed
-Frequently visited search results are retrieved from **LRU**, **LFU**, or **HashMap + DLL** caches.  
-📄 [Details](4.html)
-
+### [💾 Step 4: Caching for Speed](4.html)
 - **Why Caching?**  
   To serve common queries in constant time.
 
-# 📝 Step 5: Handling Typos
-If the user types "Best DSLF Cameraz", Google's spell checker uses **Levenshtein Distance** and **Trigram Matching** to suggest "Best DSLR Cameras".  
-📄 [Details](5.html)
-
+### [📝 Step 5: Handling Typos](5.html)
 - **Why Edit Distance?**  
   Finds the most likely intended query using minimal edits.
 
@@ -124,31 +108,19 @@ If the user types "Best DSLF Cameraz", Google's spell checker uses **Levenshtein
 
 > A user opens Google Maps and searches for the quickest route to their favorite café. Maps instantly shows directions, live traffic, and nearby recommendations. What powers this magic?
 
-# 🛠️ Step 1: Finding the Shortest Path
-Google Maps computes the **fastest route** using **Dijkstra’s**, **A\***, and **Bellman-Ford** algorithms.  
-📄 [Details](6.html)
-
+### [🛠️ Step 1: Finding the Shortest Path](6.html)
 - **Why Shortest Path Algorithms?**  
   They identify the fastest or shortest route through a weighted road network.
 
-# 🧠 Step 2: Live Traffic Integration
-Maps adjusts the routes using real-time congestion data with **Dynamic Graphs** and **Real-Time A\*** updates.  
-📄 [Details](7.html)
-
+### [🧠 Step 2: Live Traffic Integration](7.html)
 - **Why Dynamic Graphs?**  
   They reflect changes in traffic conditions on the fly.
 
-# 🗃️ Step 3: Grouping Nearby Places
-Nearby POIs are grouped using **DBSCAN**, **K-Means**, and **Disjoint Set Union (DSU)** for user-friendly results.  
-📄 [Details](8.html)
-
+### [🗃️ Step 3: Grouping Nearby Places](8.html)
 - **Why Clustering?**  
   Clusters make map exploration simpler and faster for users.
 
-# 📍 Step 4: Mapping Regional Boundaries
-Boundaries are drawn using **Convex Hull** and **K-D Trees** to build efficient geospatial data structures.  
-📄 [Details](9.html)
-
+### [📍 Step 4: Mapping Regional Boundaries](9.html)
 - **Why Spatial Structures?**  
   Help in rendering fast and accurate region outlines.
 
@@ -168,31 +140,19 @@ Boundaries are drawn using **Convex Hull** and **K-D Trees** to build efficient 
 
 > A user searches for a trending short. YouTube instantly retrieves it and suggests others. What enables this seamless video discovery?
 
-# 🛠️ Step 1: Indexing the Video Library
-YouTube indexes titles, tags, and descriptions using **Suffix Trees** and **Inverted Index**.  
-📄 [Details](10.html)
-
+### [🛠️ Step 1: Indexing the Video Library](10.html)
 - **Why Suffix Structures?**  
   They enable fast pattern lookups and partial match searches.
 
-# 🧠 Step 2: Searching for Videos
-Search queries are matched using **Suffix Arrays** and **KMP Algorithm**.  
-📄 [Details](11.html)
-
+### [🧠 Step 2: Searching for Videos](11.html)
 - **Why Suffix Arrays?**  
   They support quick searches in large text datasets.
 
-# 📈 Step 3: Detecting Trending Content
-YouTube monitors spikes in views and comments using **Sliding Window** and **Heap-based Counters**.  
-📄 [Details](12.html)
-
+### [📈 Step 3: Detecting Trending Content](12.html)
 - **Why Sliding Windows?**  
   They detect spikes in short periods to capture trends early.
 
-# 💾 Step 4: Compressing Videos
-Videos are stored efficiently using **Huffman Coding**, **Arithmetic Coding**, and **Run-Length Encoding (RLE)**.  
-📄 [Details](13.html)
-
+### [💾 Step 4: Compressing Videos](13.html)
 - **Why Compression?**  
   It saves bandwidth and improves playback performance.
 
@@ -211,31 +171,19 @@ Videos are stored efficiently using **Huffman Coding**, **Arithmetic Coding**, a
 
 > A user adds a meeting and sets a recurring schedule. Calendar handles overlaps, timing, and reminders flawlessly.
 
-# 🛠️ Step 1: Storing and Sorting Events
-Calendar sorts events using **Merge Sort**, **Quick Sort**, and **Heap Sort** to display them in order.  
-📄 [Details](14.html)
-
+### [🛠️ Step 1: Storing and Sorting Events](14.html)
 - **Why Sorting?**  
   Sorted events are easier to display and detect clashes.
 
-# 🧠 Step 2: Checking Availability
-Calendar detects conflicts using **Binary Search**, **Segment Trees**, and **Sparse Tables**.  
-📄 [Details](15.html)
-
+### [🧠 Step 2: Checking Availability](15.html)
 - **Why Interval Search?**  
   Efficient for checking overlapping time slots.
 
-# ⏰ Step 3: Sending Reminders
-Reminders are scheduled using **Priority Queues**, **Min-Heaps**.  
-📄 [Details](16.html)
-
+### [⏰ Step 3: Sending Reminders](16.html)
 - **Why Scheduling Structures?**  
   Ensure timely delivery of alerts and popups.
 
-# 🔁 Step 4: Managing Recurring Events
-Recurring meetings are managed using **Linked Lists**, **Hash Maps**, and **Floyd’s Cycle Detection** for looped schedules.  
-📄 [Details](17.html)
-
+### [🔁 Step 4: Managing Recurring Events](17.html)
 - **Why Linked Structures?**  
   Efficient for traversing repeating patterns in schedules.
 
@@ -254,31 +202,19 @@ Recurring meetings are managed using **Linked Lists**, **Hash Maps**, and **Floy
 
 > After uploading, Photos detects duplicates, sorts by timeline, tags faces, and auto-generates albums.
 
-# 🛠️ Step 1: Detecting Duplicate Photos
-Photos are checked for duplication using **Hash Tables**, **Bloom Filters**, and **Hamming Distance**.  
-📄 [Details](18.html)
-
+### [🛠️ Step 1: Detecting Duplicate Photos](18.html)
 - **Why Probabilistic Hashing?**  
   Reduces storage and eliminates redundant uploads.
 
-# 🧠 Step 2: Creating Albums Automatically
-Photos are clustered using **K-Means**, **DBSCAN**, **Cosine Similarity**, and **Metadata Trees**.  
-📄 [Details](19.html)
-
+### [🧠 Step 2: Creating Albums Automatically](19.html)
 - **Why Clustering?**  
   Groups related photos for smarter album creation.
 
-# 📅 Step 3: Arranging Timeline View
-Photos are arranged using **Radix Sort**, **Bucket Sort**, **Min-Heaps**, and **Balanced BSTs**.  
-📄 [Details](20.html)
-
+### [📅 Step 3: Arranging Timeline View](20.html)
 - **Why Sorting?**  
   For accurate and intuitive chronological display.
 
-# 👥 Step 4: Grouping Faces Across Photos
-Faces are grouped using **DSU**, **Euclidean Distance**, and **Connected Components** to identify and label people.  
-📄 [Details](21.html)
-
+### [👥 Step 4: Grouping Faces Across Photos](21.html)
 - **Why Graph-Based Face Detection?**  
   Links similar facial features across different photos.
 
@@ -288,6 +224,8 @@ Faces are grouped using **DSU**, **Euclidean Distance**, and **Connected Compone
 - Timeline and face-wise navigation
 
 > 🔎 **Summary**: Google Photos blends hashing, clustering, and graphs for smart photo organization.
+
+---
 
 # 📚 References
 
