@@ -13,11 +13,10 @@ description: >
 
 
 
-Welcome to **Behind The Click** — a curated exploration of the **algorithmic blueprints** driving Google's smartest features.
+**Welcome to **Behind The Click** — a curated exploration of the **algorithmic blueprints** driving Google's smartest features**.
 
-From the instant results of Search to the route optimizations in Maps, this portfolio connects everyday experiences with the **data structures and algorithms** behind them. It's not just about theory — it's about **understanding how real-world systems are built**.
+**From the instant results of Search to the route optimizations in Maps, this portfolio connects everyday experiences with the **data structures and algorithms** behind them. It's not just about theory — it's about **understanding how real-world systems are built**.
 
-Whether you're intrigued by how a Trie enables Autocomplete or how Segment Trees avoid calendar overlaps, this collection bridges intuition with implementation in the most engaging way.
 
 ---
 
@@ -54,21 +53,21 @@ Whether you're intrigued by how a Trie enables Autocomplete or how Segment Trees
 
 ## Google Services & Algorithms
 
-Explore how Google integrates powerful algorithms behind its core services. This timeline-style format outlines how each service operates step by step, highlighting the algorithms that make them fast, scalable, and intelligent.
+**Explore how Google integrates powerful algorithms behind its core services. This timeline-style format outlines how each service operates step by step, highlighting the algorithms that make them fast, scalable, and intelligent**.
 
 
 
-### 🧪 Case Study: How Google Search Delivers the Perfect Result
+# 🧪 Case Study: How Google Search Delivers the Perfect Result
 
-#### 🔍 Scenario: A User Searches for "Best DSLR Cameras"
+#### **🔍 Scenario: A User Searches for "Best DSLR Cameras"**
 
 > On a regular morning, a user types "Best DSLR Cameras for Beginners" into Google. Within milliseconds, Google presents hundreds of relevant, ranked, and refined results. But what’s happening behind the scenes?
 
 ---
 
-#### 🛠️ **Step 1**: String Matching Begins
+#### **🛠️ Step 1**: **String Matching Begins**
 
-To match the query to documents, **Rabin-Karp** and **KMP** algorithms are applied for efficient pattern searching across billions of indexed web pages.  
+**To match the query to documents, **Rabin-Karp** and **KMP** algorithms are applied for efficient pattern searching across billions of indexed web pages**.  
 📄 [Details](1.html)
 
 - 📌 **Why KMP/Rabin-Karp?**  
@@ -76,9 +75,9 @@ To match the query to documents, **Rabin-Karp** and **KMP** algorithms are appli
 
 ---
 
-#### 🧠 Step 2: Autocomplete Kicks In
+#### 🧠 **Step 2: Autocomplete Kicks In**
 
-Before the user even finishes typing, suggestions like *"Best DSLR Cameras 2025"* pop up—thanks to **Trie** and **Ternary Search Trees** enabling prefix-based lookups in real-time.  
+**Before the user even finishes typing, suggestions like *"Best DSLR Cameras 2025"* pop up—thanks to **Trie** and **Ternary Search Trees** enabling prefix-based lookups in real-time**.  
 📄 [Details](2.html)
 
 - 📌 **Why Tries?**  
@@ -86,9 +85,9 @@ Before the user even finishes typing, suggestions like *"Best DSLR Cameras 2025"
 
 ---
 
-#### 📈 Step 3: Page Ranking Magic
+#### **📈 Step 3: Page Ranking Magic**
 
-Once results are fetched, they’re sorted using **PageRank**, combined with **DFS** and **BFS** to traverse the web’s graph of interconnected pages.  
+**Once results are fetched, they’re sorted using **PageRank**, combined with **DFS** and **BFS** to traverse the web’s graph of interconnected pages**.  
 📄 [Details](3.html)
 
 - 📌 **Why Graph Algorithms?**  
@@ -96,9 +95,9 @@ Once results are fetched, they’re sorted using **PageRank**, combined with **D
 
 ---
 
-#### 💾 Step 4: Caching for Speed
+#### **💾 Step 4: Caching for Speed**
 
-Frequently visited search results are retrieved from **LRU**, **LFU**, or **HashMap + DLL** caches, improving speed and reducing recomputation.  
+**Frequently visited search results are retrieved from **LRU**, **LFU**, or **HashMap + DLL** caches, improving speed and reducing recomputation**.  
 📄 [Details](4.html)
 
 - 📌 **Why Caching?**  
@@ -106,9 +105,9 @@ Frequently visited search results are retrieved from **LRU**, **LFU**, or **Hash
 
 ---
 
-#### 📝 Step 5: Handling Typos
+#### **📝 Step 5: Handling Typos**
 
-If the user accidentally types "Best DSLF Cameraz", Google's spell checker steps in using **Levenshtein Distance** and **Trigram Matching** to suggest "Best DSLR Cameras".  
+**If the user accidentally types "Best DSLF Cameraz", Google's spell checker steps in using **Levenshtein Distance** and **Trigram Matching** to suggest "Best DSLR Cameras"**.  
 📄 [Details](5.html)
 
 - 📌 **Why Edit Distance?**  
@@ -133,17 +132,17 @@ In under 0.3 seconds, the user sees:
 
 
 
-### 🧪 Case Study: How Google Maps Gets You There (Fast)
+# 🧪 Case Study: How Google Maps Gets You There (Fast)
 
-#### 🗺️ Scenario: A User Navigates to a Café in Traffic in Hubballi
+#### 🗺️ **Scenario: A User Navigates to a Café in Traffic in Hubballi**
 
 > It’s a busy Monday. A user opens Google Maps and searches for the quickest route to their favorite café. Maps instantly shows directions, live traffic, and nearby recommendations. But what powers this magic?
 
 ---
 
-#### 🧭 Step 1: Finding the Shortest Path
+#### 🧭 **Step 1: Finding the Shortest Path**
 
-As soon as the destination is selected, Google Maps computes the **fastest route** using algorithms like **Dijkstra’s**, **A\***, and **Bellman-Ford**.  
+**As soon as the destination is selected, Google Maps computes the **fastest route** using algorithms like **Dijkstra’s**, **A\***, and **Bellman-Ford****.  
 📄 [Details](6.html)
 
 - 📌 **Why These Algorithms?**  
@@ -153,9 +152,9 @@ As soon as the destination is selected, Google Maps computes the **fastest route
 
 ---
 
-#### 🚦 Step 2: Live Traffic Integration
+#### 🚦 **Step 2: Live Traffic Integration**
 
-While calculating the route, Maps considers **real-time congestion** using **Dynamic Graphs** and **Real-Time A\*** updates.  
+**While calculating the route, Maps considers **real-time congestion** using **Dynamic Graphs** and **Real-Time A\*** updates**.  
 📄 [Details](7.html)
 
 - 📌 **How It Works:**  
@@ -164,9 +163,9 @@ While calculating the route, Maps considers **real-time congestion** using **Dyn
 
 ---
 
-#### 🗃️ Step 3: Grouping Nearby Places
+#### **🗃️ Step 3: Grouping Nearby Places**
 
-Looking for coffee shops or ATMs nearby? Maps uses **clustering** to group similar points of interest.  
+**Looking for coffee shops or ATMs nearby? Maps uses **clustering** to group similar points of interest.**  
 📄 [Details](8.html)
 
 - 🧠 Algorithms at Play:  
@@ -176,9 +175,9 @@ Looking for coffee shops or ATMs nearby? Maps uses **clustering** to group simil
 
 ---
 
-#### 📍 Step 4: Regional Mapping and Boundaries
+####  **📍 Step 4: Regional Mapping and Boundaries**
 
-Zooming in shows neighborhood outlines, park boundaries, or lake contours—crafted using **Convex Hull** and **K-D Trees**.  
+**Zooming in shows neighborhood outlines, park boundaries, or lake contours—crafted using **Convex Hull** and **K-D Trees**.**  
 📄 [Details](9.html)
 
 - 📌 **Why These Structures?**  
@@ -200,17 +199,17 @@ Within seconds, the user gets:
 > 🔎 **Summary: Google Maps uses classic graph algorithms, clustering techniques, and spatial data structures to deliver real-time, intelligent navigation experiences.**
 
 
-### 📺 Case Study: How YouTube Organizes the Video World
+# 📺 Case Study: How YouTube Organizes the Video World
 
-#### 🎬 Scenario: A User Searches for a Trending Video on YouTube
+#### 🎬 **Scenario: A User Searches for a Trending Video on YouTube**
 
 > A user wants to rewatch a trending short. They search for it by keyword, and YouTube instantly retrieves it with high accuracy — also suggesting other trending content. What enables this seamless video discovery?
 
 ---
 
-#### 📥 Step 1: Indexing the Video Library
+#### **📥 Step 1: Indexing the Video Library**
 
-YouTube pre-processes video titles, tags, and descriptions to make them easily searchable using:  
+**YouTube pre-processes video titles, tags, and descriptions to make them easily searchable using:** 
 📄 [Details](10.html)
 
 - 📌 **Structures Used:**  
@@ -219,9 +218,9 @@ YouTube pre-processes video titles, tags, and descriptions to make them easily s
 
 ---
 
-#### 🔎 Step 2: Searching for Videos
+#### **🔎 Step 2: Searching for Videos**
 
-When a user types a query, YouTube matches it efficiently using:  
+**When a user types a query, YouTube matches it efficiently using:** 
 📄 [Details](11.html)
 
 - 📌 **Algorithms in Action:**  
@@ -230,9 +229,9 @@ When a user types a query, YouTube matches it efficiently using:
 
 ---
 
-#### 📈 Step 3: Detecting Trending Content
+#### **📈 Step 3: Detecting Trending Content**
 
-To surface viral videos in real-time, YouTube uses dynamic monitoring tools.  
+**To surface viral videos in real-time, YouTube uses dynamic monitoring tools.**  
 📄 [Details](12.html)
 
 - 📌 **Key Techniques:**  
@@ -241,9 +240,9 @@ To surface viral videos in real-time, YouTube uses dynamic monitoring tools.
 
 ---
 
-#### 💾 Step 4: Compressing Videos for Storage
+#### **💾 Step 4: Compressing Videos for Storage**
 
-Billions of hours of video require smart storage using compression techniques.  
+**Billions of hours of video require smart storage using compression techniques.**  
 📄 [Details](13.html)
 
 - 📌 **Encoding Methods:**  
@@ -265,17 +264,17 @@ The user quickly finds:
 
 ---
 
-### 📆 Case Study: How Google Calendar Keeps You Organized
+# 📆 Case Study: How Google Calendar Keeps You Organized
 
-#### 🕒 Scenario: A User Schedules a Meeting Without Conflicts
+#### 🕒 **Scenario: A User Schedules a Meeting Without Conflicts**
 
 > It’s Friday evening. A user adds a meeting, sets a recurring schedule, and wants reminders — all without overlaps. Google Calendar handles it like a pro. What powers this planner?
 
 ---
 
-#### 📋 Step 1: Storing and Sorting Events
+#### 📋 **Step 1: Storing and Sorting Events**
 
-When events are created, Calendar ensures they are correctly ordered.  
+**When events are created, Calendar ensures they are correctly ordered.** 
 📄 [Details](14.html)
 
 - 📌 **Sorting Tools:**  
@@ -283,7 +282,7 @@ When events are created, Calendar ensures they are correctly ordered.
 
 ---
 
-#### 🔍 Step 2: Checking Availability
+#### 🔍 **Step 2: Checking Availability**
 
 Before finalizing, Calendar checks for schedule clashes using:  
 📄 [Details](15.html)
@@ -295,7 +294,7 @@ Before finalizing, Calendar checks for schedule clashes using:
 
 ---
 
-#### ⏰ Step 3: Sending Reminders
+#### ⏰ **Step 3: Sending Reminders**
 
 Alerts are sent at the right time using efficient timers.  
 📄 [Details](16.html)
@@ -307,7 +306,7 @@ Alerts are sent at the right time using efficient timers.
 
 ---
 
-#### 🔁 Step 4: Managing Recurring Events
+#### 🔁 **Step 4: Managing Recurring Events**
 
 Repeating events like weekly check-ins are tracked using:  
 📄 [Details](17.html)
@@ -331,17 +330,17 @@ In seconds, the user gets:
 
 ---
 
-### 📸 Case Study: How Google Photos Keeps Memories Organized
+# 📸 Case Study: How Google Photos Keeps Memories Organized
 
-#### 🖼️ Scenario: A User Uploads Vacation Photos and Sees Auto-Albums and Face Tags
+#### 🖼️ **Scenario: A User Uploads Vacation Photos and Sees Auto-Albums and Face Tags**
 
 > A user uploads a set of vacation photos. Google Photos detects duplicates, sorts by timeline, auto-tags faces, and builds albums. How does it all happen so fast?
 
 ---
 
-#### 🗑️ Step 1: Detecting Duplicate Photos
+#### 🗑️ **Step 1: Detecting Duplicate Photos**
 
-Photos are compared and cleaned using:  
+**Photos are compared and cleaned using:**  
 📄 [Details](18.html)
 
 - 📌 **Key Techniques:**  
@@ -351,9 +350,9 @@ Photos are compared and cleaned using:
 
 ---
 
-#### 🗂️ Step 2: Creating Albums Automatically
+#### 🗂️ **Step 2: Creating Albums Automatically**
 
-Photos are grouped into intelligent albums using clustering.  
+**Photos are grouped into intelligent albums using clustering**.  
 📄 [Details](19.html)
 
 - 📌 **Clustering Tools:**  
@@ -364,9 +363,9 @@ Photos are grouped into intelligent albums using clustering.
 
 ---
 
-#### 🕒 Step 3: Arranging Timeline View
+#### 🕒 **Step 3: Arranging Timeline View**
 
-The gallery is organized by time using smart sorting.  
+**The gallery is organized by time using smart sorting.**  
 📄 [Details](20.html)
 
 - 📌 **Sorting Algorithms:**  
@@ -377,9 +376,9 @@ The gallery is organized by time using smart sorting.
 
 ---
 
-#### 👥 Step 4: Grouping Faces Across Photos
+#### **👥 Step 4: Grouping Faces Across Photos**
 
-Facial recognition is modeled as a graph problem.  
+**Facial recognition is modeled as a graph problem.**  
 📄 [Details](21.html)
 
 - 📌 **Graph Approach:**  
