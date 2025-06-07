@@ -6,7 +6,7 @@ description: >
 ---
 
 
-<p style="font-size: 1.8rem; font-weight: bold; font-style: italic; color: #333; text-align: center;">
+<p style="font-size: 1.4rem; font-weight: bold; font-style: italic; color: #333; text-align: center;">
   🧠 “Every tap on a Google service triggers a chain of finely-tuned algorithms — it’s time to uncover what clicks behind the click.”
 </p>
 
