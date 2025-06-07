@@ -197,36 +197,21 @@ Explore how Google integrates powerful algorithms behind its core services. This
 
 ---
 
-# 🧪 Case Study: How Google Photos Keeps Memories Organized
 
-### 🖼️ Scenario: A User Uploads Vacation Photos
+# 📸 Up Next... A Trip Down Memory Lane
 
-> After uploading, Photos detects duplicates, sorts by timeline, tags faces, and auto-generates albums.
+> From organizing meetings to organizing memories — Google’s next trick is just as magical.  
+>  
+> Ever wondered how your photos get grouped by faces, dates, or even places? 🤔  
+>  
+> Stay tuned for the next case study — where we dive into the **smart structures behind Google Photos** and how it keeps your memories sorted, compressed, and ready for nostalgia.
 
-### [🛠️ Step 1: Detecting Duplicate Photos](18.html)
-- **Why Probabilistic Hashing?**  
-  Reduces storage and eliminates redundant uploads.
+<p align="center">
+  <img src="images/photosteaser.webp" alt="Google Photos Teaser" width="500" height="300">
+</p>
 
-### [🧠 Step 2: Creating Albums Automatically](19.html)
-- **Why Clustering?**  
-  Groups related photos for smarter album creation.
+> 📍 *Coming up next: The unseen algorithms that recognize smiles, sort albums, and fight duplicates so you don’t have to.*
 
-### [📅 Step 3: Arranging Timeline View](20.html)
-- **Why Sorting?**  
-  For accurate and intuitive chronological display.
-
-### [👥 Step 4: Grouping Faces Across Photos](21.html)
-- **Why Graph-Based Face Detection?**  
-  Links similar facial features across different photos.
-
-# ✅ Final Outcome
-- Duplicate-free albums  
-- Auto-grouped memories  
-- Timeline and face-wise navigation
-
-> 🔎 **Summary**: Google Photos blends hashing, clustering, and graphs for smart photo organization.
-
----
 
 # 📚 References
 
