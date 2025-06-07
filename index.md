@@ -194,76 +194,211 @@ Within seconds, the user gets:
 - Grouped POIs for discovery  
 - Seamless regional map overlays  
 
-All thanks to the smart use of **DSA-powered algorithms** that bring intelligence to navigation.
+
 
 ---
-> 🔎 Summary: Google Maps uses classic graph algorithms, clustering techniques, and spatial data structures to deliver real-time, intelligent navigation experiences.4
+> 🔎 Summary: Google Maps uses classic graph algorithms, clustering techniques, and spatial data structures to deliver real-time, intelligent navigation experiences.
 ---
 
-### 📺 YouTube – Organizing the Video World
+### 📺 Case Study: How YouTube Organizes the Video World
 
-1. **Videos are indexed**  
-   → Structured using **Suffix Trees** and **Inverted Index** to support fast retrieval.  
-   📄 [Details](14.html)  
-   
-2. **Users search for videos**  
-   → Matches video metadata using **Suffix Arrays** and **KMP** pattern matching.  
-   📄 [Details](15.html)  
-   
-3. **Trending content is detected**  
-   → Tracked using **Sliding Window** techniques and **Heap-based Counters**.  
-   📄 [Details](16.html)  
-   
+#### 🎬 Scenario: A User Searches for a Trending Video on YouTube
 
-4. **Videos are compressed for storage**  
-   → Uses **Huffman Coding**, **Arithmetic Coding**, and **Run-Length Encoding**.  
-   📄 [Details](17.html)  
-  
----
-
-### 📆 Google Calendar – Scheduling Smarter
-
-1. **Event is created and stored**  
-   → Events are sorted using **Merge Sort**, **Quick Sort**, or **Heap Sort**.  
-   📄 [Details](18.html)  
-   
-
-2. **System checks for availability**  
-   → Uses **Binary Search**, **Sparse Tables**, or **Segment Trees** to avoid overlaps.  
-   📄 [Details](19.html)  
-   
-
-3. **Reminder is set for the user**  
-   → Managed using **Priority Queues**, **Min-Heaps**, or **Time Wheels** for timely alerts.  
-   📄 [Details](20.html)  
-  
-
-4. **Recurring events are managed**  
-   → Efficiently tracked with **Linked Lists**, **Hash Maps**, and **Cycle Detection (Floyd’s Algorithm)** for repeating schedules.  
-   📄 [Details](21.html)  
-  
+> A user wants to rewatch a trending short. They search for it by keyword, and YouTube instantly retrieves it with high accuracy — also suggesting other trending content. What enables this seamless video discovery?
 
 ---
 
-### 📸 Google Photos – Organizing Memories with Intelligence
+#### 📥 Step 1: Indexing the Video Library
 
-1. **🗑️ Duplicate photos are detected and removed**  
-   → Leveraging **Hash Tables** for quick image hashing, **Bloom Filters** for space-efficient duplicate checks, and **Hamming Distance** for perceptual similarity detection.  
-   📄 [Details](22.html)  
-  
+YouTube pre-processes video titles, tags, and descriptions to make them easily searchable using:  
+📄 [Details](14.html)
 
-2. **🗂️ Albums are created automatically**  
-   → Clustered using **K-Means** and **DBSCAN**, guided by **Cosine Similarity** and **metadata trees** (e.g., date → location → tag) to group related photos.  
-   📄 [Details](23.html)  
-   
-3. **🕒 Timeline view is arranged by date**  
-   → Efficiently sorted using **Radix Sort** and **Bucket Sort** for date fields, or using **Custom Comparators** in **Balanced BSTs** or **Min-Heaps**.  
-   📄 [Details](24.html)  
-   
+- 📌 **Structures Used:**  
+  - **Suffix Trees**: For fast substring matches in metadata.  
+  - **Inverted Index**: For mapping words to a list of relevant videos.
 
-4. **👥 Face grouping across photos**  
-   → Constructed as a graph problem: nodes represent faces, edges represent similarity; solved using **Disjoint Set Union (DSU)** for grouping, **Euclidean Distance** for similarity, and **Connected Components** detection in **Adjacency Lists**.  
-   📄 [Details](25.html)  
+---
+
+#### 🔎 Step 2: Searching for Videos
+
+When a user types a query, YouTube matches it efficiently using:  
+📄 [Details](15.html)
+
+- 📌 **Algorithms in Action:**  
+  - **Suffix Arrays**: For quick lexicographic search.  
+  - **KMP Algorithm**: For pattern matching within titles and tags.
+
+---
+
+#### 📈 Step 3: Detecting Trending Content
+
+To surface viral videos in real-time, YouTube uses dynamic monitoring tools.  
+📄 [Details](16.html)
+
+- 📌 **Key Techniques:**  
+  - **Sliding Window**: Tracks view spikes over recent intervals.  
+  - **Heap-based Counters**: Maintains top-viewed content efficiently.
+
+---
+
+#### 💾 Step 4: Compressing Videos for Storage
+
+Billions of hours of video require smart storage using compression techniques.  
+📄 [Details](17.html)
+
+- 📌 **Encoding Methods:**  
+  - **Huffman Coding**  
+  - **Arithmetic Coding**  
+  - **Run-Length Encoding (RLE)**
+
+---
+
+#### ✅ Final Outcome:
+
+The user quickly finds:
+- Exact and relevant video results  
+- Real-time trending content  
+- Smooth playback with compressed storage  
+
+---
+> 🔎 Summary: YouTube blends pattern matching, trend detection, and data compression to deliver fast, scalable video experiences.
+
+---
+
+### 📆 Case Study: How Google Calendar Keeps You Organized
+
+#### 🕒 Scenario: A User Schedules a Meeting Without Conflicts
+
+> It’s Friday evening. A user adds a meeting, sets a recurring schedule, and wants reminders — all without overlaps. Google Calendar handles it like a pro. What powers this planner?
+
+---
+
+#### 📋 Step 1: Storing and Sorting Events
+
+When events are created, Calendar ensures they are correctly ordered.  
+📄 [Details](18.html)
+
+- 📌 **Sorting Tools:**  
+  - **Merge Sort**, **Quick Sort**, **Heap Sort**
+
+---
+
+#### 🔍 Step 2: Checking Availability
+
+Before finalizing, Calendar checks for schedule clashes using:  
+📄 [Details](19.html)
+
+- 📌 **Conflict Detection Structures:**  
+  - **Binary Search**  
+  - **Segment Trees**  
+  - **Sparse Tables**
+
+---
+
+#### ⏰ Step 3: Sending Reminders
+
+Alerts are sent at the right time using efficient timers.  
+📄 [Details](20.html)
+
+- 📌 **Reminder Scheduling:**  
+  - **Priority Queues**  
+  - **Min-Heaps**  
+  - **Time Wheels**
+
+---
+
+#### 🔁 Step 4: Managing Recurring Events
+
+Repeating events like weekly check-ins are tracked using:  
+📄 [Details](21.html)
+
+- 📌 **Data Structures Used:**  
+  - **Linked Lists**  
+  - **Hash Maps**  
+  - **Floyd’s Cycle Detection**
+
+---
+
+#### ✅ Final Outcome:
+
+In seconds, the user gets:
+- Non-overlapping events  
+- Timely alerts  
+- Effortless recurring scheduling  
+
+---
+> 🔎 Summary: Google Calendar uses classic sorting, interval trees, and reminder queues to automate your scheduling life.
+
+---
+
+### 📸 Case Study: How Google Photos Keeps Memories Organized
+
+#### 🖼️ Scenario: A User Uploads Vacation Photos and Sees Auto-Albums and Face Tags
+
+> A user uploads a set of vacation photos. Google Photos detects duplicates, sorts by timeline, auto-tags faces, and builds albums. How does it all happen so fast?
+
+---
+
+#### 🗑️ Step 1: Detecting Duplicate Photos
+
+Photos are compared and cleaned using:  
+📄 [Details](22.html)
+
+- 📌 **Key Techniques:**  
+  - **Hash Tables**  
+  - **Bloom Filters**  
+  - **Hamming Distance**
+
+---
+
+#### 🗂️ Step 2: Creating Albums Automatically
+
+Photos are grouped into intelligent albums using clustering.  
+📄 [Details](23.html)
+
+- 📌 **Clustering Tools:**  
+  - **K-Means**  
+  - **DBSCAN**  
+  - **Cosine Similarity**  
+  - **Metadata Trees**
+
+---
+
+#### 🕒 Step 3: Arranging Timeline View
+
+The gallery is organized by time using smart sorting.  
+📄 [Details](24.html)
+
+- 📌 **Sorting Algorithms:**  
+  - **Radix Sort**  
+  - **Bucket Sort**  
+  - **Min-Heaps**  
+  - **Balanced BSTs**
+
+---
+
+#### 👥 Step 4: Grouping Faces Across Photos
+
+Facial recognition is modeled as a graph problem.  
+📄 [Details](25.html)
+
+- 📌 **Graph Approach:**  
+  - **DSU (Disjoint Set Union)**  
+  - **Euclidean Distance**  
+  - **Connected Components**
+
+---
+
+#### ✅ Final Outcome:
+
+User sees:
+- Cleaned photo collections  
+- Auto-grouped memories  
+- Timeline and face-wise navigation  
+
+---
+> 🔎 Summary: Google Photos merges clustering, hashing, and graph algorithms to make photo organization feel like magic.
+
  
 
 
