@@ -66,7 +66,7 @@ Explore how Google integrates powerful algorithms behind its core services. This
 
 ---
 
-#### 🛠️ Step 1: String Matching Begins
+#### 🛠️ **Step 1**: String Matching Begins
 
 To match the query to documents, **Rabin-Karp** and **KMP** algorithms are applied for efficient pattern searching across billions of indexed web pages.  
 📄 [Details](1.html)
