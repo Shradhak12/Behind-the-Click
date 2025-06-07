@@ -13,9 +13,9 @@ description: >
 
 
 
-**Welcome to **Behind The Click** — a curated exploration of the **algorithmic blueprints** driving Google's smartest features**.
+**Welcome to Behind The Click — a curated exploration of the algorithmic blueprints driving Google's smartest features**.
 
-**From the instant results of Search to the route optimizations in Maps, this portfolio connects everyday experiences with the **data structures and algorithms** behind them. It's not just about theory — it's about **understanding how real-world systems are built**.
+**From the instant results of Search to the route optimizations in Maps, this portfolio connects everyday experiences with the data structures and algorithms behind them. It's not just about theory — it's about **understanding how real-world systems are built**.
 
 
 ---
@@ -65,9 +65,9 @@ description: >
 
 ---
 
-#### **🛠️ Step 1**: **String Matching Begins**
+# 🛠️ Step 1: String Matching Begins
 
-**To match the query to documents, **Rabin-Karp** and **KMP** algorithms are applied for efficient pattern searching across billions of indexed web pages**.  
+**To match the query to documents, Rabin-Karp and KMP algorithms are applied for efficient pattern searching across billions of indexed web pages.**  
 📄 [Details](1.html)
 
 - 📌 **Why KMP/Rabin-Karp?**  
@@ -75,7 +75,7 @@ description: >
 
 ---
 
-#### 🧠 **Step 2: Autocomplete Kicks In**
+#🧠 **Step 2: Autocomplete Kicks In**
 
 **Before the user even finishes typing, suggestions like *"Best DSLR Cameras 2025"* pop up—thanks to **Trie** and **Ternary Search Trees** enabling prefix-based lookups in real-time**.  
 📄 [Details](2.html)
@@ -85,7 +85,7 @@ description: >
 
 ---
 
-#### **📈 Step 3: Page Ranking Magic**
+# 📈 Step 3: Page Ranking Magic
 
 **Once results are fetched, they’re sorted using **PageRank**, combined with **DFS** and **BFS** to traverse the web’s graph of interconnected pages**.  
 📄 [Details](3.html)
@@ -95,7 +95,7 @@ description: >
 
 ---
 
-#### **💾 Step 4: Caching for Speed**
+# 💾 Step 4: Caching for Speed
 
 **Frequently visited search results are retrieved from **LRU**, **LFU**, or **HashMap + DLL** caches, improving speed and reducing recomputation**.  
 📄 [Details](4.html)
@@ -105,7 +105,7 @@ description: >
 
 ---
 
-#### **📝 Step 5: Handling Typos**
+# 📝 Step 5: Handling Typos
 
 **If the user accidentally types "Best DSLF Cameraz", Google's spell checker steps in using **Levenshtein Distance** and **Trigram Matching** to suggest "Best DSLR Cameras"**.  
 📄 [Details](5.html)
@@ -115,7 +115,7 @@ description: >
 
 ---
 
-#### ✅ Final Outcome:
+# ✅ Final Outcome:
 
 In under 0.3 seconds, the user sees:
 - Accurate search results  
@@ -140,7 +140,7 @@ In under 0.3 seconds, the user sees:
 
 ---
 
-#### 🧭 **Step 1: Finding the Shortest Path**
+# 🧭 **Step 1: Finding the Shortest Path**
 
 **As soon as the destination is selected, Google Maps computes the **fastest route** using algorithms like **Dijkstra’s**, **A\***, and **Bellman-Ford****.  
 📄 [Details](6.html)
@@ -152,7 +152,7 @@ In under 0.3 seconds, the user sees:
 
 ---
 
-#### 🚦 **Step 2: Live Traffic Integration**
+# 🚦 Step 2: Live Traffic Integration
 
 **While calculating the route, Maps considers **real-time congestion** using **Dynamic Graphs** and **Real-Time A\*** updates**.  
 📄 [Details](7.html)
@@ -163,7 +163,7 @@ In under 0.3 seconds, the user sees:
 
 ---
 
-#### **🗃️ Step 3: Grouping Nearby Places**
+# 🗃️ Step 3: Grouping Nearby Places
 
 **Looking for coffee shops or ATMs nearby? Maps uses **clustering** to group similar points of interest.**  
 📄 [Details](8.html)
@@ -175,7 +175,7 @@ In under 0.3 seconds, the user sees:
 
 ---
 
-####  **📍 Step 4: Regional Mapping and Boundaries**
+#  **📍 Step 4: Regional Mapping and Boundaries**
 
 **Zooming in shows neighborhood outlines, park boundaries, or lake contours—crafted using **Convex Hull** and **K-D Trees**.**  
 📄 [Details](9.html)
@@ -186,7 +186,7 @@ In under 0.3 seconds, the user sees:
 
 ---
 
-#### ✅ Final Outcome:
+# ✅ Final Outcome:
 
 Within seconds, the user gets:
 - Optimal route suggestions  
@@ -207,7 +207,7 @@ Within seconds, the user gets:
 
 ---
 
-#### **📥 Step 1: Indexing the Video Library**
+# 📥 Step 1: Indexing the Video Library
 
 **YouTube pre-processes video titles, tags, and descriptions to make them easily searchable using:** 
 📄 [Details](10.html)
@@ -218,7 +218,7 @@ Within seconds, the user gets:
 
 ---
 
-#### **🔎 Step 2: Searching for Videos**
+# 🔎 Step 2: Searching for Videos
 
 **When a user types a query, YouTube matches it efficiently using:** 
 📄 [Details](11.html)
@@ -229,7 +229,7 @@ Within seconds, the user gets:
 
 ---
 
-#### **📈 Step 3: Detecting Trending Content**
+# 📈 Step 3: Detecting Trending Content
 
 **To surface viral videos in real-time, YouTube uses dynamic monitoring tools.**  
 📄 [Details](12.html)
@@ -240,7 +240,7 @@ Within seconds, the user gets:
 
 ---
 
-#### **💾 Step 4: Compressing Videos for Storage**
+# 💾 Step 4: Compressing Videos for Storage
 
 **Billions of hours of video require smart storage using compression techniques.**  
 📄 [Details](13.html)
@@ -252,7 +252,7 @@ Within seconds, the user gets:
 
 ---
 
-#### ✅ Final Outcome:
+# ✅ Final Outcome:
 
 The user quickly finds:
 - Exact and relevant video results  
@@ -266,13 +266,13 @@ The user quickly finds:
 
 # 📆 Case Study: How Google Calendar Keeps You Organized
 
-#### 🕒 **Scenario: A User Schedules a Meeting Without Conflicts**
+# 🕒 Scenario: A User Schedules a Meeting Without Conflicts
 
 > It’s Friday evening. A user adds a meeting, sets a recurring schedule, and wants reminders — all without overlaps. Google Calendar handles it like a pro. What powers this planner?
 
 ---
 
-#### 📋 **Step 1: Storing and Sorting Events**
+# 📋 Step 1: Storing and Sorting Events
 
 **When events are created, Calendar ensures they are correctly ordered.** 
 📄 [Details](14.html)
@@ -282,7 +282,7 @@ The user quickly finds:
 
 ---
 
-#### 🔍 **Step 2: Checking Availability**
+# 🔍 Step 2: Checking Availability
 
 Before finalizing, Calendar checks for schedule clashes using:  
 📄 [Details](15.html)
@@ -294,7 +294,7 @@ Before finalizing, Calendar checks for schedule clashes using:
 
 ---
 
-#### ⏰ **Step 3: Sending Reminders**
+# ⏰ Step 3: Sending Reminders
 
 Alerts are sent at the right time using efficient timers.  
 📄 [Details](16.html)
@@ -306,7 +306,7 @@ Alerts are sent at the right time using efficient timers.
 
 ---
 
-#### 🔁 **Step 4: Managing Recurring Events**
+# 🔁 Step 4: Managing Recurring Events
 
 Repeating events like weekly check-ins are tracked using:  
 📄 [Details](17.html)
@@ -318,7 +318,7 @@ Repeating events like weekly check-ins are tracked using:
 
 ---
 
-#### ✅ Final Outcome:
+# ✅ Final Outcome:
 
 In seconds, the user gets:
 - Non-overlapping events  
@@ -338,7 +338,7 @@ In seconds, the user gets:
 
 ---
 
-#### 🗑️ **Step 1: Detecting Duplicate Photos**
+# 🗑️ Step 1: Detecting Duplicate Photos
 
 **Photos are compared and cleaned using:**  
 📄 [Details](18.html)
@@ -350,7 +350,7 @@ In seconds, the user gets:
 
 ---
 
-#### 🗂️ **Step 2: Creating Albums Automatically**
+# 🗂️ Step 2: Creating Albums Automatically
 
 **Photos are grouped into intelligent albums using clustering**.  
 📄 [Details](19.html)
@@ -363,7 +363,7 @@ In seconds, the user gets:
 
 ---
 
-#### 🕒 **Step 3: Arranging Timeline View**
+# 🕒 Step 3: Arranging Timeline View
 
 **The gallery is organized by time using smart sorting.**  
 📄 [Details](20.html)
@@ -376,7 +376,7 @@ In seconds, the user gets:
 
 ---
 
-#### **👥 Step 4: Grouping Faces Across Photos**
+# 👥 Step 4: Grouping Faces Across Photos
 
 **Facial recognition is modeled as a graph problem.**  
 📄 [Details](21.html)
@@ -388,7 +388,7 @@ In seconds, the user gets:
 
 ---
 
-#### ✅ Final Outcome:
+# ✅ Final Outcome:
 
 User sees:
 - Cleaned photo collections  
