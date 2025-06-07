@@ -1,4 +1,8 @@
 title: Behind the Click
-
 theme: jekyll-theme-modernist
 
+# Allows you to override layouts and assets
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: pages-themes/modernist
