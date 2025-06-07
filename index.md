@@ -5,10 +5,11 @@ description: >
   Dive into the logic that powers every Google product—uncovering the data structures and algorithms shaping user experiences.
 ---
 
-<div style="font-weight: bold;">
-<p style="font-size: 1.1rem; font-style: italic; color: #555;">
+
+<p style="font-size: 1.6rem; font-style: normal; font-weight: 600; color: #4285F4; font-family: 'Segoe UI', sans-serif;">
   🧠 “Every tap on a Google service triggers a chain of finely-tuned algorithms — it’s time to uncover what clicks behind the click.”
 </p>
+
 
 
 
@@ -410,4 +411,4 @@ User sees:
 - Stack Overflow Discussions
 
 > 📌 This  portfolio outlines the key **Data Structures and Algorithms (DSA)** behind Google’s services, providing insight into real-world applications of theoretical concepts.
-</div>
+
