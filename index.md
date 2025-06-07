@@ -38,7 +38,11 @@ From the instant results of Search to the route optimizations in Maps, this port
 
   <dt><strong>University</strong></dt>
   <dd>KLE Technological University, Hubballi-31</dd>
+  
+  <dt><strong>Email</strong></dt>
+  <dd>kenkreshraddha92@gmail.com</dd>
 </dl>
+
 
 <p align="center">
   <img src="images/gogle.gif" alt="Google Logo" width="800" height="400">
@@ -215,8 +219,26 @@ Explore how Google integrates powerful algorithms behind its core services. This
 
 # 📚 References
 
-- [GeeksforGeeks](https://www.geeksforgeeks.org/)  
-- Wikipedia (Dijkstra, Trie, Hashing, PageRank, KMP)  
-- Stack Overflow Discussions
+- [GeeksforGeeks – Data Structures & Algorithms](https://www.geeksforgeeks.org/data-structures/)
+- [Wikipedia – Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+- [Wikipedia – Trie Data Structure](https://en.wikipedia.org/wiki/Trie)
+- [Wikipedia – Rabin–Karp Algorithm](https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm)
+- [Wikipedia – PageRank](https://en.wikipedia.org/wiki/PageRank)
+- [Wikipedia – Suffix Array](https://en.wikipedia.org/wiki/Suffix_array)
+- [Wikipedia – Sliding Window Technique](https://en.wikipedia.org/wiki/Sliding_window_protocol)
+- [Wikipedia – Edit Distance](https://en.wikipedia.org/wiki/Edit_distance)
+- [Wikipedia – Hash Function](https://en.wikipedia.org/wiki/Hash_function)
+- [Wikipedia – Graph Traversal](https://en.wikipedia.org/wiki/Graph_traversal)
+- [Stack Overflow – Differences between DFS and BFS](https://stackoverflow.com/questions/3336537/what-is-the-difference-between-depth-first-and-breadth-first-search)
+- [MIT OpenCourseWare – Graph Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/lecture-13-dfs-topological-sort/)
+- [OpenCV Documentation – Computer Vision Library](https://docs.opencv.org/)
+- [Wikipedia – Convolutional Neural Networks](https://en.wikipedia.org/wiki/Convolutional_neural_network)
+- [Wikipedia – Clustering Algorithms](https://en.wikipedia.org/wiki/Cluster_analysis)
+- [Google AI Blog](https://ai.googleblog.com/)
+- [Towards Data Science – Machine Learning Tutorials](https://towardsdatascience.com/)
+- [Scikit-learn – Machine Learning in Python](https://scikit-learn.org/stable/)
+- [Wikipedia – K-Means Clustering](https://en.wikipedia.org/wiki/K-means_clustering)
+- [Wikipedia – Image Segmentation](https://en.wikipedia.org/wiki/Image_segmentation)
+
 
 > 📌 This portfolio outlines the key **Data Structures and Algorithms (DSA)** behind Google’s services, providing insight into real-world applications of theoretical concepts.
