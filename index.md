@@ -127,9 +127,7 @@ In under 0.3 seconds, the user sees:
 
 ---
 
-#### 🧠 Summary
-
-Google Search isn’t just a black box—it’s a beautifully choreographed system where **graphs**, **tries**, **DP**, and **greedy logic** blend to serve billions daily.
+> 🔎 **Summary**: Google Search isn’t just a black box—it’s a beautifully choreographed system where **graphs**, **tries**, **DP**, and **greedy logic** blend to serve billions daily.
 
 
 
@@ -199,7 +197,8 @@ Within seconds, the user gets:
 All thanks to the smart use of **DSA-powered algorithms** that bring intelligence to navigation.
 
 ---
-
+> 🔎 **Summary**: Google Maps uses classic graph algorithms, clustering techniques, and spatial data structures to deliver real-time, intelligent navigation experiences.4
+---
 
 ### 📺 YouTube – Organizing the Video World
 
