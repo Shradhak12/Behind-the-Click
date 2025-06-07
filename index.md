@@ -5,7 +5,12 @@ description: >
   Dive into the logic that powers every Google product—uncovering the data structures and algorithms shaping user experiences.
 ---
 
-> 🧠 “Every tap on a Google service triggers a chain of finely-tuned algorithms — it’s time to uncover what clicks behind the click.”
+<p style="font-size: 1.1rem; font-style: italic; color: #555;">
+  🧠 “Every tap on a Google service triggers a chain of finely-tuned algorithms — it’s time to uncover what clicks behind the click.”
+</p>
+
+
+
 
 Welcome to **Behind The Click** — a curated exploration of the **algorithmic blueprints** driving Google's smartest features.
 
@@ -52,32 +57,82 @@ Explore how Google integrates powerful algorithms behind its core services. This
 
 
 
-### 🔍 Google Search – From Query to Result
+### 🧪 Case Study: How Google Search Delivers the Perfect Result
 
-1. **User enters a search query**  
-   → The query is matched using **Rabin-Karp** and **KMP** string matching algorithms.  
-   📄 [Details](1.html)  
-   
+#### 🔍 Scenario: A User Searches for "Best DSLR Cameras"
 
-2. **Autocomplete suggestions appear**  
-   → Generated in real-time using **Trie** and **Ternary Search Trees**.  
-   📄 [Details](2.html)  
-   
+> On a regular morning, a user types "Best DSLR Cameras for Beginners" into Google. Within milliseconds, Google presents hundreds of relevant, ranked, and refined results. But what’s happening behind the scenes?
 
-3. **Relevant pages are ranked**  
-   → Ranked by importance using **PageRank**, **DFS**, and **BFS** over the link graph.  
-   📄 [Details](3.html)  
-   
-
-4. **Frequently accessed results are cached**  
-   → Handled by **LRU**, **LFU**, and **HashMap + DLL** based caches.  
-   📄 [Details](4.html)  
-   
-5. **Spelling mistakes are corrected**  
-   → Corrected using **Levenshtein Distance** and **Trigram Matching**.  
-   📄 [Details](5.html)  
-  
 ---
+
+#### 🛠️ Step 1: String Matching Begins
+
+To match the query to documents, **Rabin-Karp** and **KMP** algorithms are applied for efficient pattern searching across billions of indexed web pages.  
+📄 [Details](1.html)
+
+- 📌 **Why KMP/Rabin-Karp?**  
+  These algorithms offer fast and scalable substring matching by avoiding re-checking characters.
+
+---
+
+#### 🧠 Step 2: Autocomplete Kicks In
+
+Before the user even finishes typing, suggestions like *"Best DSLR Cameras 2025"* pop up—thanks to **Trie** and **Ternary Search Trees** enabling prefix-based lookups in real-time.  
+📄 [Details](2.html)
+
+- 📌 **Why Tries?**  
+  Tries reduce lookup time to O(L), where L is the length of the prefix.
+
+---
+
+#### 📈 Step 3: Page Ranking Magic
+
+Once results are fetched, they’re sorted using **PageRank**, combined with **DFS** and **BFS** to traverse the web’s graph of interconnected pages.  
+📄 [Details](3.html)
+
+- 📌 **Why Graph Algorithms?**  
+  They help evaluate importance based on the number and quality of inbound links.
+
+---
+
+#### 💾 Step 4: Caching for Speed
+
+Frequently visited search results are retrieved from **LRU**, **LFU**, or **HashMap + DLL** caches, improving speed and reducing recomputation.  
+📄 [Details](4.html)
+
+- 📌 **Why Caching?**  
+  To serve common queries in constant time.
+
+---
+
+#### 📝 Step 5: Handling Typos
+
+If the user accidentally types "Best DSLF Cameraz", Google's spell checker steps in using **Levenshtein Distance** and **Trigram Matching** to suggest "Best DSLR Cameras".  
+📄 [Details](5.html)
+
+- 📌 **Why Edit Distance?**  
+  It helps find the most likely intended query based on minimal edits.
+
+---
+
+#### ✅ Final Outcome:
+
+In under 0.3 seconds, the user sees:
+- Accurate search results  
+- Helpful auto-suggestions  
+- Corrected spellings  
+- Fast load times due to caching  
+
+All powered by **core data structures and algorithms** seamlessly working together.
+
+---
+
+#### 🧠 Summary
+
+Google Search isn’t just a black box—it’s a beautifully choreographed system where **graphs**, **tries**, **DP**, and **greedy logic** blend to serve billions daily.
+
+
+
 
 ### 🗺️ Google Maps – Navigating the Real World
 
