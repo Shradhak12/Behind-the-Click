@@ -15,7 +15,7 @@ description: >
 
 **Welcome to Behind The Click — a curated exploration of the algorithmic blueprints driving Google's smartest features**.
 
-**From the instant results of Search to the route optimizations in Maps, this portfolio connects everyday experiences with the data structures and algorithms behind them. It's not just about theory — it's about **understanding how real-world systems are built**.
+**From the instant results of Search to the route optimizations in Maps, this portfolio connects everyday experiences with the data structures and algorithms behind them. It's not just about theory — it's about understanding how real-world systems are built**.
 
 
 ---
@@ -266,7 +266,7 @@ The user quickly finds:
 
 # 📆 Case Study: How Google Calendar Keeps You Organized
 
-# 🕒 Scenario: A User Schedules a Meeting Without Conflicts
+#### 🕒 Scenario: A User Schedules a Meeting Without Conflicts
 
 > It’s Friday evening. A user adds a meeting, sets a recurring schedule, and wants reminders — all without overlaps. Google Calendar handles it like a pro. What powers this planner?
 
