@@ -211,7 +211,7 @@ Within seconds, the user gets:
 #### 📥 Step 1: Indexing the Video Library
 
 YouTube pre-processes video titles, tags, and descriptions to make them easily searchable using:  
-📄 [Details](14.html)
+📄 [Details](10.html)
 
 - 📌 **Structures Used:**  
   - **Suffix Trees**: For fast substring matches in metadata.  
@@ -222,7 +222,7 @@ YouTube pre-processes video titles, tags, and descriptions to make them easily s
 #### 🔎 Step 2: Searching for Videos
 
 When a user types a query, YouTube matches it efficiently using:  
-📄 [Details](15.html)
+📄 [Details](11.html)
 
 - 📌 **Algorithms in Action:**  
   - **Suffix Arrays**: For quick lexicographic search.  
@@ -233,7 +233,7 @@ When a user types a query, YouTube matches it efficiently using:
 #### 📈 Step 3: Detecting Trending Content
 
 To surface viral videos in real-time, YouTube uses dynamic monitoring tools.  
-📄 [Details](16.html)
+📄 [Details](12.html)
 
 - 📌 **Key Techniques:**  
   - **Sliding Window**: Tracks view spikes over recent intervals.  
@@ -244,7 +244,7 @@ To surface viral videos in real-time, YouTube uses dynamic monitoring tools.
 #### 💾 Step 4: Compressing Videos for Storage
 
 Billions of hours of video require smart storage using compression techniques.  
-📄 [Details](17.html)
+📄 [Details](13.html)
 
 - 📌 **Encoding Methods:**  
   - **Huffman Coding**  
@@ -276,7 +276,7 @@ The user quickly finds:
 #### 📋 Step 1: Storing and Sorting Events
 
 When events are created, Calendar ensures they are correctly ordered.  
-📄 [Details](18.html)
+📄 [Details](14.html)
 
 - 📌 **Sorting Tools:**  
   - **Merge Sort**, **Quick Sort**, **Heap Sort**
@@ -286,7 +286,7 @@ When events are created, Calendar ensures they are correctly ordered.
 #### 🔍 Step 2: Checking Availability
 
 Before finalizing, Calendar checks for schedule clashes using:  
-📄 [Details](19.html)
+📄 [Details](14.html)
 
 - 📌 **Conflict Detection Structures:**  
   - **Binary Search**  
@@ -298,7 +298,7 @@ Before finalizing, Calendar checks for schedule clashes using:
 #### ⏰ Step 3: Sending Reminders
 
 Alerts are sent at the right time using efficient timers.  
-📄 [Details](20.html)
+📄 [Details](15.html)
 
 - 📌 **Reminder Scheduling:**  
   - **Priority Queues**  
@@ -310,7 +310,7 @@ Alerts are sent at the right time using efficient timers.
 #### 🔁 Step 4: Managing Recurring Events
 
 Repeating events like weekly check-ins are tracked using:  
-📄 [Details](21.html)
+📄 [Details](16.html)
 
 - 📌 **Data Structures Used:**  
   - **Linked Lists**  
@@ -342,7 +342,7 @@ In seconds, the user gets:
 #### 🗑️ Step 1: Detecting Duplicate Photos
 
 Photos are compared and cleaned using:  
-📄 [Details](22.html)
+📄 [Details](17.html)
 
 - 📌 **Key Techniques:**  
   - **Hash Tables**  
@@ -354,7 +354,7 @@ Photos are compared and cleaned using:
 #### 🗂️ Step 2: Creating Albums Automatically
 
 Photos are grouped into intelligent albums using clustering.  
-📄 [Details](23.html)
+📄 [Details](18.html)
 
 - 📌 **Clustering Tools:**  
   - **K-Means**  
@@ -367,7 +367,7 @@ Photos are grouped into intelligent albums using clustering.
 #### 🕒 Step 3: Arranging Timeline View
 
 The gallery is organized by time using smart sorting.  
-📄 [Details](24.html)
+📄 [Details](19.html)
 
 - 📌 **Sorting Algorithms:**  
   - **Radix Sort**  
@@ -380,7 +380,7 @@ The gallery is organized by time using smart sorting.
 #### 👥 Step 4: Grouping Faces Across Photos
 
 Facial recognition is modeled as a graph problem.  
-📄 [Details](25.html)
+📄 [Details](20.html)
 
 - 📌 **Graph Approach:**  
   - **DSU (Disjoint Set Union)**  
