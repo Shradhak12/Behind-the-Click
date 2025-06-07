@@ -286,7 +286,7 @@ When events are created, Calendar ensures they are correctly ordered.
 #### 🔍 Step 2: Checking Availability
 
 Before finalizing, Calendar checks for schedule clashes using:  
-📄 [Details](14.html)
+📄 [Details](15.html)
 
 - 📌 **Conflict Detection Structures:**  
   - **Binary Search**  
@@ -298,7 +298,7 @@ Before finalizing, Calendar checks for schedule clashes using:
 #### ⏰ Step 3: Sending Reminders
 
 Alerts are sent at the right time using efficient timers.  
-📄 [Details](15.html)
+📄 [Details](16.html)
 
 - 📌 **Reminder Scheduling:**  
   - **Priority Queues**  
@@ -310,7 +310,7 @@ Alerts are sent at the right time using efficient timers.
 #### 🔁 Step 4: Managing Recurring Events
 
 Repeating events like weekly check-ins are tracked using:  
-📄 [Details](16.html)
+📄 [Details](17.html)
 
 - 📌 **Data Structures Used:**  
   - **Linked Lists**  
@@ -342,7 +342,7 @@ In seconds, the user gets:
 #### 🗑️ Step 1: Detecting Duplicate Photos
 
 Photos are compared and cleaned using:  
-📄 [Details](17.html)
+📄 [Details](18.html)
 
 - 📌 **Key Techniques:**  
   - **Hash Tables**  
@@ -354,7 +354,7 @@ Photos are compared and cleaned using:
 #### 🗂️ Step 2: Creating Albums Automatically
 
 Photos are grouped into intelligent albums using clustering.  
-📄 [Details](18.html)
+📄 [Details](19.html)
 
 - 📌 **Clustering Tools:**  
   - **K-Means**  
@@ -367,7 +367,7 @@ Photos are grouped into intelligent albums using clustering.
 #### 🕒 Step 3: Arranging Timeline View
 
 The gallery is organized by time using smart sorting.  
-📄 [Details](19.html)
+📄 [Details](20.html)
 
 - 📌 **Sorting Algorithms:**  
   - **Radix Sort**  
@@ -380,7 +380,7 @@ The gallery is organized by time using smart sorting.
 #### 👥 Step 4: Grouping Faces Across Photos
 
 Facial recognition is modeled as a graph problem.  
-📄 [Details](20.html)
+📄 [Details](21.html)
 
 - 📌 **Graph Approach:**  
   - **DSU (Disjoint Set Union)**  
