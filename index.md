@@ -62,7 +62,7 @@ Explore how Google integrates powerful algorithms behind its core services. This
 > Welcome to your day, powered by code.
 
 <p align="center">
-  <img src="images/story.png" alt="A Day in the Googleverse" width="600" height="400">
+  <img src="images/storyy.png" alt="A Day in the Googleverse" width="600" height="400">
 </p>
 
 ---
