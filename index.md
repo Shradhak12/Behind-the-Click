@@ -6,10 +6,9 @@ description: >
 ---
 
 
-<p style="font-size: 1.6rem; font-style: normal; font-weight: 600; color: #4285F4; font-family: 'Segoe UI', sans-serif;">
+<p style="font-size: 1.8rem; font-weight: bold; font-style: italic; color: #333; text-align: center;">
   🧠 “Every tap on a Google service triggers a chain of finely-tuned algorithms — it’s time to uncover what clicks behind the click.”
 </p>
-
 
 
 
