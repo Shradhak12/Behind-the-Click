@@ -141,7 +141,7 @@ Explore how Google integrates powerful algorithms behind its core services. This
 
 # 🧪 Case Study: How YouTube Organizes the Video World
 
-### 🎬 Scenario: A User Searches for a Trending Video on YouTube
+### 🎬 Scenario: A User Searches for a binary search tree video on YouTube
 
 > A user searches for a trending short. YouTube instantly retrieves it and suggests others. What enables this seamless video discovery?
 
