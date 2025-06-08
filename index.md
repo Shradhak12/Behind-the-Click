@@ -229,7 +229,7 @@ From YouTube’s video trend detection (using **sliding window** logic) to typo 
 One of the highlights of APS was the PageRank algorithm. In my portfolio’s Search section, I explored how **PageRank scores** determine which pages rise to the top — exactly how Google started. Understanding this from both a theoretical and applied angle was powerful.
 
 ### 🌟 Range Queries & Sparse Table  
-In Google Photos, I drew inspiration from **sparse table** and **lookup tables** for tasks like timeline arrangement and photo grouping — connecting back to the range query optimizations we covered in class.
+In Google Photos, I drew inspiration from **sparse table** and **lookup tables** for tasks like timeline arrangement and Longest prefix array in KMP used for search engine optimisation  — connecting back to the range query optimizations we covered.
 
 ### 🚦A* and Pathfinding  
 The shortest path algorithms behind Google Maps felt familiar thanks to APS. Techniques like **Dijkstra** and **A*** enabled me to explain how live route optimization is done under the hood.
