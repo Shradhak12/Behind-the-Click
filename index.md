@@ -31,7 +31,7 @@ From the instant results of Search to the route optimizations in Maps, this port
   <dd>Google Services</dd>
 
   <dt><strong>Course Code</strong></dt>
-  <dd>23ECSE304</dd>
+  <dd>23ECSE309</dd>
 
   <dt><strong>Faculty</strong></dt>
   <dd>Prakash Hegade</dd>
@@ -215,6 +215,33 @@ Explore how Google integrates powerful algorithms behind its core services. This
 </p>
 
 > 📍 *Coming up next: The unseen algorithms that recognize smiles, sort albums, and fight duplicates so you don’t have to.*
+
+----
+> 📘 **APS Takeaways — From Classrooms to Clicks**  
+> *“Every algorithm I learned in class found its real-world echo in this portfolio.”*
+
+APS (Algorithmic Problem Solving) wasn’t just a subject — it was the lens through which I decoded how Google works behind the scenes. Here's how the topics taught by **Prakash Hegade Sir** helped me shape this interactive portfolio:
+
+### 🔁 Dynamic Programming  
+From YouTube’s video trend detection (using **sliding window** logic) to typo handling in Google Search (**edit distance**), dynamic programming helped break complex problems into simpler subproblems — just as we practiced in class.
+
+### 🌐 PageRank  
+One of the highlights of APS was the PageRank algorithm. In my portfolio’s Search section, I explored how **PageRank scores** determine which pages rise to the top — exactly how Google started. Understanding this from both a theoretical and applied angle was powerful.
+
+### 🌟 Range Queries & Sparse Table  
+In Google Photos, I drew inspiration from **sparse table** and **lookup tables** for tasks like timeline arrangement and photo grouping — connecting back to the range query optimizations we covered in class.
+
+### 🚦A* and Pathfinding  
+The shortest path algorithms behind Google Maps felt familiar thanks to APS. Techniques like **Dijkstra** and **A*** enabled me to explain how live route optimization is done under the hood.
+
+### 📊 Mo's Algorithm  
+While not explicitly visualized, the concept of **offline query optimization** inspired me to think about query batching — especially in scenarios like video indexing or face matching across photos in Google Photos.
+
+---
+
+> 💡 **APS helped me look at the world not just through code — but through logic.**  
+> This portfolio is a direct outcome of that journey: from solving coding problems on paper to understanding how world-class systems like Google are built — one algorithm at a time.
+
 
 
 # 📚 References
