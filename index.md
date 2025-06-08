@@ -229,10 +229,13 @@ From YouTube’s video trend detection (using **sliding window** logic) to typo 
 One of the highlights of APS was the PageRank algorithm. In my portfolio’s Search section, I explored how **PageRank scores** determine which pages rise to the top — exactly how Google started. Understanding this from both a theoretical and applied angle was powerful.
 
 ### 🌟 Range Queries & Sparse Table  
-In Google Photos, I drew inspiration from **sparse table** and **lookup tables** for tasks like timeline arrangement and Longest prefix array in KMP used for search engine optimisation  — connecting back to the range query optimizations we covered.
+In Google Photos, I drew inspiration from **sparse tables** and **lookup tables** for tasks like timeline arrangement and longest prefix arrays in KMP used for search engine optimization — connecting back to the range query optimizations we covered.
 
-### 🚦A* and Pathfinding  
-The shortest path algorithms behind Google Maps felt familiar thanks to APS. Techniques like **Dijkstra** and **A*** enabled me to explain how live route optimization is done under the hood.
+### 🚦 A* and Pathfinding  
+The shortest path algorithms behind Google Maps felt familiar thanks to APS. Techniques like **Dijkstra** and **A\*** enabled me to explain how live route optimization is done under the hood.
+
+### 📍 Spatial Indexing with K-D Trees  
+While building the Maps section, I realized how important **K-D Trees** are for **efficient regional mapping and spatial queries**. These trees help locate nearest places and boundaries — concepts closely tied to our APS learning around tree-based structures and searching.
 
 ### 📊 Mo's Algorithm  
 While not explicitly visualized, the concept of **offline query optimization** inspired me to think about query batching — especially in scenarios like video indexing or face matching across photos in Google Photos.
