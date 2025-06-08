@@ -31,7 +31,7 @@ From the instant results of Search to the route optimizations in Maps, this port
   <dd>Google Services</dd>
 
   <dt><strong>Course Code</strong></dt>
-  <dd>23ECSE309</dd>
+  <dd>24ECSE309</dd>
 
   <dt><strong>Faculty</strong></dt>
   <dd>Prakash Hegade</dd>
